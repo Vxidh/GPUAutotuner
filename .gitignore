@@ -1,0 +1,9 @@
+build/
+.vscode/
+data/raw/
+data/processed/
+results/figures/
+*.csv
+*.parquet
+*.ncu-rep
+*.nsys-rep
