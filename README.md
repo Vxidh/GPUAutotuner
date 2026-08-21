@@ -1,4 +1,6 @@
-# Hardware-Aware CUDA Autotuning with Response Surface Methodology
+# GPUAutotuner
+
+Hardware-aware CUDA autotuning using classical statistics and benchmarking methods.
 
 This workspace turns the project synopsis into a reproducible research project. The core question is:
 
