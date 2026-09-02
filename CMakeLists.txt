@@ -38,6 +38,15 @@ add_executable(gemm_experiment src/main.cu)
 target_link_libraries(gemm_experiment PRIVATE gemm_kernels)
 enable_project_warnings(gemm_experiment)
 
+# Keep the introductory standalone examples from the project-foundation branch.
+add_executable(vector_add kernels/vector_add.cu)
+add_executable(naive_gemm kernels/naive_gemm.cu)
+set_target_properties(vector_add naive_gemm PROPERTIES
+    CUDA_SEPARABLE_COMPILATION ON
+)
+enable_project_warnings(vector_add)
+enable_project_warnings(naive_gemm)
+
 include(CTest)
 if(BUILD_TESTING)
     add_executable(correctness_tests tests/correctness_tests.cu)
