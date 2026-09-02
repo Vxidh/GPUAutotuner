@@ -1,0 +1,33 @@
+schema_version: 1
+milestone: reproducible_experimental_foundation
+
+numerical_semantics:
+  operation: "C = A * B"
+  storage_order: row_major
+  input_type: fp32
+  output_type: fp32
+  accumulation_type: fp32
+
+reproducibility:
+  random_seed: 20260902
+  input_distribution: uniform_minus_one_to_one
+  relative_frobenius_tolerance: 1.0e-4
+
+initial_kernel:
+  BM: 64
+  BN: 64
+  BK: 16
+  TM: 4
+  TN: 4
+  block_dimensions: [16, 16, 1]
+  threads_per_block: 256
+
+runtime_metadata:
+  gpu_name: null
+  compute_capability: null
+  cuda_runtime_version: null
+  cuda_driver_version: null
+  cuda_architectures: null
+  operating_system: null
+  compiler: null
+
