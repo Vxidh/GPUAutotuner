@@ -109,18 +109,19 @@ A(f"""<section class="cover">
 <div class="tag">Design of experiments × GPU kernels</div>
 <h1>Hardware-aware autotuning of a CUDA GEMM kernel with <em>response surface methodology</em></h1>
 <div class="abstract"><span class="k" style="display:block;margin-bottom:2mm">Abstract</span>
-A single parameterised CUDA matrix-multiplication kernel was tuned over six compile-time factors on an NVIDIA H200, using a
+A single parameterised CUDA matrix-multiplication kernel, adapted from a public tutorial kernel, was tuned over six compile-time factors on an NVIDIA H200, using a
 2<sup>6−1</sup> fractional-factorial screen, a 6-factor central composite design, a second-order response surface, constrained
 sequential quadratic programming and measured validation. Every result is checked against an exhaustive sweep of all 1,396 feasible
 configurations. <b>The pipeline selected the second-best configuration of 1,396 (0.17% from the optimum) after measuring 59.</b>
 Random search with the same budget did as well in 7.8% of 10,000 trials and needs a median of 424 evaluations to match it.
 The pre-registered second-order surface was statistically inadequate (lack of fit 7.8% against a 5% limit), because of
-3-factor interactions and abrupt compiler effects, so the final choice was made by measurement. The selected kernel reaches
-72.0% of cuBLAS FP32 throughput and is 2.6× faster than the untuned default.</div>
+3-factor interactions and abrupt compiler effects, so the final choice was made by measurement. The winner was a corner of the
+screening design, so the gain comes from screening and from where its levels were placed, not from the fitted surface. The selected
+kernel reaches 72.0% of cuBLAS FP32 throughput and is 1.31× faster than the default tile sizes with the inner loop fully unrolled.</div>
 <div class="keyfigs">
 <div><div class="v acc">0.17%</div><div class="d">gap to the exhaustive optimum</div></div>
 <div><div class="v">59</div><div class="d">configurations measured, of 1,396</div></div>
-<div><div class="v">7×</div><div class="d">fewer evaluations than random search</div></div>
+<div><div class="v">1.31×</div><div class="d">faster than the full-unroll default</div></div>
 <div><div class="v">72.0%</div><div class="d">of cuBLAS FP32 throughput</div></div>
 </div>
 <div style="flex:1"></div>
@@ -134,8 +135,8 @@ The pre-registered second-order surface was statistically inadequate (lack of fi
 
 # ---------------------------------------------------------- 1 introduction --
 A("""<h2 class="first"><span class="sn">01</span>Introduction and research questions</h2>
-<p class="lead">The same kernel source runs at 13.2 TFLOPS with textbook tile sizes and 34.3 TFLOPS with tuned ones: six compile-time numbers decide a 2.6× difference.</p>
-<p>Choosing those numbers is usually done by exhaustive search, which grows with every new factor, or by machine-learning autotuners such as TVM and Ansor, which need many samples. This project tests whether classical Design of Experiments (DOE) and Response Surface Methodology (RSM) can find a near-best configuration from a small, statistically designed sample, as proposed in the synopsis.</p>""")
+<p class="lead">The same kernel source runs at 26.1 TFLOPS with small default tiles, 30.5 TFLOPS with the parameters of the tutorial it comes from and 34.3 TFLOPS with tuned ones: six compile-time numbers decide a 1.31× difference.</p>
+<p>Choosing those numbers is usually done by exhaustive search, which grows with every new factor, by search-based autotuners such as OpenTuner, CLTune and Kernel Tuner, or by machine-learning autotuners such as TVM and Ansor, which need many samples. This project tests whether classical Design of Experiments (DOE) and Response Surface Methodology (RSM) can find a near-best configuration from a small, statistically designed sample, as proposed in the synopsis.</p>""")
 A(table(["", "Question"],
         [["RQ1", "Can a fractional factorial design separate the parameters that matter from noise?"],
          ["RQ2", "Does a second-order response surface capture the GPU’s non-linear behaviour?"],
@@ -148,7 +149,7 @@ A(table(["", "Question"],
 A("""<h2><span class="sn">02</span>Setup and measurement protocol</h2>
 <p class="lead">One parameterised kernel was tuned over six factors, with every rule of the experiment fixed in a written contract before any final data was collected.</p>
 <h3>Kernel and design space</h3>
-<p>The kernel is a 2D block-tiled shared-memory SGEMM computing C = A·B (row-major, FP32 inputs and accumulation, CUDA-core FFMA only, no Tensor Cores). The six factors are injected as compile-time macros.</p>""")
+<p>The kernel is a 2D block-tiled shared-memory SGEMM computing C = A·B (row-major, FP32 inputs and accumulation, CUDA-core FFMA only, no Tensor Cores). It is adapted from kernel 5 (“2D blocktiling”) of Boehm’s public SGEMM worklog; this project added the compile-time parameterisation, the unroll factor, the feasibility assertions and a fault-injection switch for testing the correctness check. The six factors are injected as compile-time macros.</p>""")
 A(table(["Factor", "Meaning", "Levels"],
         [["BM", "block output-tile rows (shared memory)", "32 · 64 · 128 · 256"],
          ["BN", "block output-tile columns (shared memory)", "32 · 64 · 128 · 256"],
@@ -174,7 +175,7 @@ A("""<h2><span class="sn">03</span>Screening (RQ1)</h2>
 <p class="lead">A 32-run fractional factorial found all six factors significant at 4096³ (R² = 0.959). The unroll factor dominates, with 54% of the variance including its interactions.</p>
 <p><b>Design.</b> A 2<sup>6−1</sup> half fraction with generator F = ABCDE (defining relation I = ABCDEF, resolution VI): main effects are aliased only with 5-factor interactions and 2-factor interactions only with 4-factor interactions. Each factor ran at two legal levels (BM, BN 64/128; BK 8/32; TM, TN 4/8; UNROLL 1/8). There are no centre points, because the midpoint of a power-of-two pair is not a legal configuration; pure error comes from 3 replicate blocks (96 measurements per shape).</p>""")
 A(fig("effects", "Screening effects at 4096³ with 95% confidence intervals: six main effects and the six largest 2-factor interactions. All are significant."))
-A("""<p>Raising UNROLL from 1 to 8 adds 7.9 TFLOPS on average and TM from 4 to 8 adds 4.9; the strongest interaction, BN × UNROLL, is negative (−3.1). The pre-registered retention rule (keep a factor if its main effect or any interaction containing it has p &lt; 0.05) kept all six; the weakest, BM, still had p = 0.0026.</p>
+A("""<p>Raising UNROLL from 1 to 8 adds 7.9 TFLOPS on average and TM from 4 to 8 adds 4.9; the strongest interaction, BN × UNROLL, is negative (−3.1). UNROLL’s dominance partly reflects its low level: UNROLL = 1 forbids unrolling the inner loop at all, so much of its effect is the cost of switching unrolling off rather than a gain found by tuning. The pre-registered retention rule (keep a factor if its main effect or any interaction containing it has p &lt; 0.05) kept all six; the weakest, BM, still had p = 0.0026.</p>
 <p><b>Diagnostics.</b> Randomising the run order removed the autocorrelation that a fixed order produced in a pilot run: the Durbin–Watson statistic on run order is 1.86, against 0.60 in the pilot. There is no drift between blocks (p = 1.0) and replicate noise is small (median coefficient of variation 0.037%). Residual variance is not constant (Breusch–Pagan p &lt; 0.001), but refitting on log latency gives the same significant factors at all three shapes. Because measurement noise is so small, the residuals are mostly real 3-factor interactions the model omits; that inflates the error estimate, so the tests are conservative.</p>
 <p><b>Effect of matrix shape.</b> The same screen was repeated at 2048³ and 1024³ (Figure 2). Factor rankings at 4096³ and 2048³ agree exactly (Kendall τ = 1.0); at 1024³ they do not (τ = −0.07): BM rises from 1.9% to 23.6% of the variance and TM falls from 22.7% to 3.2%. A likely cause is GPU fill: at 1024³ a 128 × 128 tile yields only 64 thread blocks for the H200’s 132 SMs, so tile size decides how much of the GPU is used. Tuned settings should not be carried from large to small matrices.</p>""")
 A(fig("shapes", "Share of variance per factor (main effect plus its 2-factor interactions) at three matrix sizes."))
@@ -226,24 +227,28 @@ A(table(["Method", "Evaluations", "Best TFLOPS", "Gap to optimum"],
         [["DOE–RSM (this project)", "59", "34.34", "0.17%"],
          ["Random search, same budget (median; 10th–90th pct)", "59", "32.07 (30.50–33.23)", "7.26%"],
          ["Exhaustive search", "1,396", "34.40", "0%"],
-         ["Untuned default (64, 64, 8, 4, 4, 1)", "1", "13.15", "161%"]],
-        "Equal-budget comparison. Gaps are in latency against the exhaustive optimum (3.995 ms).", num_cols=(1, 2, 3), hl_first=True,
+         ["Tutorial parameters (128, 128, 8, 8, 8, 8), one informed guess", "1", "30.54", "12.7%"],
+         ["Full-unroll default (64, 64, 8, 4, 4, 8)", "1", "26.13", "31.7%"],
+         ["Unroll-disabled default (64, 64, 8, 4, 4, 1)", "1", "13.15", "161%"]],
+        "Equal-budget comparison. Gaps are in latency against the exhaustive optimum (3.995 ms); single-configuration rows are from the exhaustive sweep.", num_cols=(1, 2, 3), hl_first=True,
         widths=["46%", "14%", "22%", "18%"]))
 A("""<p>Random search matched or beat DOE–RSM in 7.8% of trials and needs a median of 424 evaluations (10th–90th percentile 77–936), about 7× the budget, to reach the same result.</p>
-<p><b>What to credit to which stage.</b> The selected configuration is the all-high corner of the screening design and was first measured at evaluation 7. The response surface and validation confirmed it, by measuring it fastest among 15 model-proposed candidates, but did not discover it. Its presence in the screening design follows from where the screening levels were placed (by engineering judgement, before any measurement). The efficiency gain belongs to the design as a whole, screening included, not to the fitted surface alone.</p>""")
+<p><b>What to credit to which stage.</b> The selected configuration is the all-high corner of the screening design and was first measured at evaluation 7. The response surface and validation confirmed it, by measuring it fastest among 15 model-proposed candidates, but did not discover it. Its presence in the screening design follows from where the screening levels were placed (by engineering judgement, before any measurement). The efficiency gain belongs to the design as a whole, screening included, not to the fitted surface alone.</p>
+<p><b>A fairer reference than random search.</b> Random search starts with no knowledge of GPUs, while the screening levels were chosen by someone who has it, so beating random search does not show that the statistical method adds value beyond that knowledge. A better comparison is an informed engineer. Their natural first guess, the tutorial’s own parameters, reaches 30.54 TFLOPS (rank 51 of 1,396) in one evaluation; the all-high screening corner, an equally natural guess, is the selected configuration itself. What this study supports is that a designed screen around sensible levels finds a near-optimal configuration cheaply and explains which factors matter. It does not show that the response surface found it.</p>""")
 
 # ----------------------------------------------------------- 7 cuBLAS -------
 A("""<h2><span class="sn">07</span>Comparison with cuBLAS (RQ5)</h2>
-<p class="lead">The selected kernel attains 72.0% of cuBLAS FP32 throughput and is 2.61× faster than the untuned default.</p>
+<p class="lead">The selected kernel attains 72.0% of cuBLAS FP32 throughput. It is 1.31× faster than the default tile sizes with the inner loop fully unrolled, and 1.12× faster than the tutorial’s parameters.</p>
 <p>Each configuration was benchmarked in the same process as cuBLAS, alternating 30-launch blocks of each (10 per process, 3 randomised processes: 900 launches per side). cuBLAS ran in pedantic FP32 mode with TF32 disabled; its default mode gave identical times, and its output matches the custom kernel’s bit for bit, so the comparison is FP32 against FP32.</p>""")
 A(table(["Configuration", "Median latency (ms)", "Custom TFLOPS", "cuBLAS TFLOPS", "Share of cuBLAS"],
         [["DOE–RSM selection (128, 128, 32, 8, 8, 8)", "4.001", "34.35", "47.71", "72.0%"],
          ["Exhaustive best (64, 128, 64, 8, 8, 8)", "3.993", "34.42", "47.68", "72.2%"],
-         ["Untuned default (64, 64, 8, 4, 4, 1)", "10.447", "13.16", "47.69", "27.6%"]],
+         ["Unroll-disabled default (64, 64, 8, 4, 4, 1)", "10.447", "13.16", "47.69", "27.6%"]],
         "Interleaved comparison with cuBLAS, 4096³, pedantic FP32.", num_cols=(1, 2, 3, 4), hl_first=True,
         widths=["44%", "16%", "13%", "13%", "14%"]))
-A(fig("final_comparison", "Throughput of the untuned default, the DOE–RSM selection, the exhaustive best and cuBLAS."))
-A("""<p>The remaining 28% is a ceiling of the kernel design, not of the tuning: even the best of all 1,396 configurations stops at 72.2%. cuBLAS uses techniques this kernel does not have (vectorised 128-bit loads, asynchronous double-buffered copies, warp-level tiling); adding them would change the kernel family and lies outside this study.</p>""")
+A(fig("final_comparison", "Throughput of the unroll-disabled default, the DOE–RSM selection, the exhaustive best and cuBLAS."))
+A("""<p><b>Choice of baseline.</b> The default in the table has UNROLL = 1, which forbids unrolling the inner loop. Against it the selection is 2.61× faster, but most of that gap is the cost of switching unrolling off: the same tiles with UNROLL = 8, which unrolls the loop completely at BK = 8, already reach 26.13 TFLOPS (54.8% of cuBLAS) in the exhaustive sweep. The 1.31× figure against that configuration is the honest measure of what tuning bought.</p>
+<p>The remaining 28% is a ceiling of the kernel design, not of the tuning: even the best of all 1,396 configurations stops at 72.2%. cuBLAS uses techniques this kernel does not have (vectorised 128-bit loads, asynchronous double-buffered copies, warp-level tiling); adding them would change the kernel family and lies outside this study.</p>""")
 
 # ----------------------------------------------------------- 8 registers ----
 A("""<h2><span class="sn">08</span>Register spilling</h2>
@@ -261,6 +266,7 @@ A("""<h2><span class="sn">09</span>Deviations and threats to validity</h2>
 <li><b>Scope.</b> One GPU, FP32 on CUDA cores, one kernel family and one primary shape (4096³). The 1024³ screen shows factor importance changes with shape, so the selected configuration should not be carried to other shapes without re-tuning.</li>
 <li><b>Power-of-two lattice.</b> Coded design points were snapped to legal levels, so the CCD is not exactly rotatable and its centre runs at (64, 64, 16, 4, 4, 2); models were fitted on the realised levels.</li>
 <li><b>Where the winner came from.</b> The selected configuration is a corner of the screening design, so the result depends partly on where the screening levels were placed, and the true optimum lies outside the region the models were allowed to search.</li>
+<li><b>Baselines.</b> Random search is the weakest sensible baseline. The study has no Bayesian-optimisation or local-search comparison, and the unroll-disabled default overstates the gain from tuning (Section 7).</li>
 <li><b>Ground truth.</b> Random search was scored with the single-block exhaustive measurements; the top 20 were re-measured in 3 more blocks and kept their order.</li>
 <li><b>Correctness reference.</b> At 4096³ cuBLAS sums in the same order as this kernel, so their outputs are identical; agreement with an independent float64 CPU reference was checked for the default and selected configurations at 512³ and 1024³.</li>
 <li><b>Pilot data excluded.</b> An earlier pilot run without clock locking or randomisation shaped this protocol; none of its measurements are used here.</li>
@@ -271,9 +277,9 @@ A("""<h2><span class="sn">10</span>Conclusions and future work</h2>""")
 A(table(["", "Answer"],
         [["RQ1", "Yes. The fractional factorial separated all six factors (R² 0.959); their importance shifts at 1024³."],
          ["RQ2", "Close but inadequate: lack of fit 7.8% against a 5% limit, caused by 3-factor interactions and compiler jumps."],
-         ["RQ3", "Yes. 59 evaluations against a median of 424 for random search with the same goal."],
+         ["RQ3", "Yes against random search: 59 evaluations against a median of 424 for the same result. The gain comes from the screen and its expert-chosen levels, not the fitted surface."],
          ["RQ4", "0.17% from the exhaustive optimum: the second-best of 1,396 configurations."],
-         ["RQ5", "72.0% of cuBLAS FP32 throughput; 2.6× the untuned kernel."]],
+         ["RQ5", "72.0% of cuBLAS FP32 throughput; 1.31× the full-unroll default and 1.12× the tutorial’s parameters."]],
         "Answers to the research questions.", widths=["10%", "90%"]))
 A("""<p>The practical lesson is to use the response surface to propose candidates and let measurement decide. Four extensions follow: a full 2⁶ factorial core, so 3-factor interactions can be estimated without overfitting; tuning per matrix shape, since importance shifts below 2048³; a head-to-head comparison with Bayesian optimisation, the method modern autotuners use; and kernel features such as vectorised loads and double buffering as categorical factors, to raise the 72% ceiling.</p>""")
 
@@ -293,7 +299,10 @@ A("""<p>The run is executed phase by phase with <code>python pipeline.py &lt;run
 <ol class="refs">
 <li>G. E. P. Box and K. B. Wilson, “On the Experimental Attainment of Optimum Conditions,” <i>Journal of the Royal Statistical Society, Series B</i>, 1951.</li>
 <li>D. C. Montgomery, <i>Design and Analysis of Experiments</i>, Wiley, 2017.</li>
-<li>U. Bondhugula, A. Hartono, J. Ramanujam and P. Sadayappan, “A Practical Automatic Polyhedral Parallelizer and Locality Optimizer,” PLDI, 2008.</li>
+<li>S. Boehm, “How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog,” 2022. Online: siboehm.com/articles/22/CUDA-MMM (kernel 5, source of the kernel used here).</li>
+<li>J. Ansel et al., “OpenTuner: An Extensible Framework for Program Autotuning,” PACT, 2014.</li>
+<li>C. Nugteren and V. Codreanu, “CLTune: A Generic Auto-Tuner for OpenCL Kernels,” MCSoC, 2015.</li>
+<li>B. van Werkhoven, “Kernel Tuner: A Search-Optimizing GPU Code Auto-Tuner,” <i>Future Generation Computer Systems</i>, 2019.</li>
 <li>NVIDIA Corporation, <i>CUDA C++ Programming Guide</i>.</li>
 <li>NVIDIA Corporation, <i>cuBLAS Library Documentation</i>.</li>
 <li>D. B. Kirk and W. W. Hwu, <i>Programming Massively Parallel Processors: A Hands-on Approach</i>, Morgan Kaufmann, 2016.</li>

@@ -115,7 +115,7 @@ L 541.925926 10.4
     <g id="ytick_4">
      <g id="line2d_16"/>
      <g id="text_11">
-      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="202.404665" transform="rotate(-0 180.25 202.404665)">Untuned default</text>
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="202.404665" transform="rotate(-0 180.25 202.404665)">Unroll-off default</text>
      </g>
     </g>
    </g>
