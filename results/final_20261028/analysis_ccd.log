@@ -1,0 +1,304 @@
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+/home/ubuntu/autotuner/python/analysis.py:284: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(formula, data=tr).fit()
+{
+  "retained": [
+    "BM",
+    "BN",
+    "BK",
+    "TM",
+    "TN",
+    "UNROLL"
+  ],
+  "fixed": {},
+  "n_measurements": 144,
+  "distinct_configs": 45,
+  "models": {
+    "tflops": {
+      "response": "tflops",
+      "n_parameters": 30,
+      "design_rank": 30,
+      "condition_number": 20.942032177140195,
+      "r_squared": 0.956373101096964,
+      "adj_r_squared": 0.9452750303233848,
+      "press": 293.7749401349089,
+      "predicted_r_squared": 0.9318916667284937,
+      "lack_of_fit_F": 30013.139996746584,
+      "lack_of_fit_p": 1.9688693442863955e-172,
+      "lack_of_fit_ms": 11.067189822532772,
+      "model_ms": 142.24724004258496,
+      "lof_ms_pct_of_model_ms": 7.780249247169614,
+      "pure_error_df": 97.0,
+      "lack_of_fit_df": 17.0,
+      "adequacy_gate_passed": false,
+      "diagnostics": {
+        "durbin_watson_run_order": 2.15044653266044,
+        "shapiro_wilk_p": 0.006256431230604952,
+        "breusch_pagan_p": 4.480982203207084e-09,
+        "max_cooks_distance": 0.04874932772235237,
+        "n_cooks_gt_4_over_n": 15,
+        "residual_sd": 1.2847895425660538
+      },
+      "lopo_cv": {
+        "folds_evaluated": 43,
+        "rank_deficient_folds": [
+          "BM64_BN64_BK16_TM2_TN4_UNROLL2",
+          "BM64_BN64_BK16_TM4_TN2_UNROLL2"
+        ],
+        "rmse_tflops": 3.0882349970851157,
+        "median_abs_pct_err": 10.635349347669742,
+        "max_abs_pct_err": 46.3355561734858
+      }
+    },
+    "log_latency": {
+      "response": "log_latency",
+      "n_parameters": 30,
+      "design_rank": 30,
+      "condition_number": 20.942032177140195,
+      "r_squared": 0.9608582399261447,
+      "adj_r_squared": 0.950901125521392,
+      "press": 0.5762623889446357,
+      "predicted_r_squared": 0.9394895129680776,
+      "lack_of_fit_F": 33162.09004901959,
+      "lack_of_fit_p": 1.5600098876294142e-174,
+      "lack_of_fit_ms": 0.021923320733555997,
+      "model_ms": 0.31553747636417506,
+      "lof_ms_pct_of_model_ms": 6.947929287566898,
+      "pure_error_df": 97.0,
+      "lack_of_fit_df": 17.0,
+      "adequacy_gate_passed": false,
+      "diagnostics": {
+        "durbin_watson_run_order": 2.162817228715377,
+        "shapiro_wilk_p": 0.0806333403870666,
+        "breusch_pagan_p": 8.799955775414796e-08,
+        "max_cooks_distance": 0.040771302258533454,
+        "n_cooks_gt_4_over_n": 5,
+        "residual_sd": 0.05718242420823868
+      },
+      "lopo_cv": {
+        "folds_evaluated": 43,
+        "rank_deficient_folds": [
+          "BM64_BN64_BK16_TM2_TN4_UNROLL2",
+          "BM64_BN64_BK16_TM4_TN2_UNROLL2"
+        ],
+        "rmse_tflops": 3.4347624903090956,
+        "median_abs_pct_err": 11.394433446895569,
+        "max_abs_pct_err": 38.06347505148973
+      }
+    },
+    "tflops_3fi": {
+      "response": "tflops_3fi",
+      "n_parameters": 40,
+      "design_rank": 40,
+      "condition_number": 22.33663919024763,
+      "r_squared": 0.9821455470873172,
+      "adj_r_squared": 0.9754501272450611,
+      "press": 128.55713005550064,
+      "predicted_r_squared": 0.9701955113862757,
+      "lack_of_fit_F": 29821.900884566345,
+      "lack_of_fit_p": 1.194267640594271e-158,
+      "lack_of_fit_ms": 10.996671391065062,
+      "model_ms": 108.62398688411707,
+      "lof_ms_pct_of_model_ms": 10.12361238664219,
+      "pure_error_df": 97.0,
+      "lack_of_fit_df": 7.0,
+      "adequacy_gate_passed": false,
+      "diagnostics": {
+        "durbin_watson_run_order": 1.9717461959272178,
+        "shapiro_wilk_p": 2.6006058885249253e-06,
+        "breusch_pagan_p": 0.0002510215004883192,
+        "max_cooks_distance": 0.038892292649333374,
+        "n_cooks_gt_4_over_n": 9,
+        "residual_sd": 0.8605257113260124
+      },
+      "lopo_cv": {
+        "folds_evaluated": 43,
+        "rank_deficient_folds": [
+          "BM64_BN64_BK16_TM2_TN4_UNROLL2",
+          "BM64_BN64_BK16_TM4_TN2_UNROLL2"
+        ],
+        "rmse_tflops": 30.33553947374648,
+        "median_abs_pct_err": 32.64073408384309,
+        "max_abs_pct_err": 412.1579875604223
+      },
+      "third_order_terms": [
+        {
+          "term": "BM\u00b7BN\u00b7BK = TM\u00b7TN\u00b7UNROLL",
+          "coef": 0.7304270802411403,
+          "p": 1.4066144998020245e-13
+        },
+        {
+          "term": "BM\u00b7BN\u00b7TM = BK\u00b7TN\u00b7UNROLL",
+          "coef": 0.23867131623880905,
+          "p": 0.002756177985231122
+        },
+        {
+          "term": "BM\u00b7BN\u00b7TN = BK\u00b7TM\u00b7UNROLL",
+          "coef": 0.09113627146591008,
+          "p": 0.24422346520554827
+        },
+        {
+          "term": "BM\u00b7BN\u00b7UNROLL = BK\u00b7TM\u00b7TN",
+          "coef": 0.0792819471417685,
+          "p": 0.35335116961020235
+        },
+        {
+          "term": "BM\u00b7BK\u00b7TM = BN\u00b7TN\u00b7UNROLL",
+          "coef": 0.2685954172686033,
+          "p": 0.0022773415832588718
+        },
+        {
+          "term": "BM\u00b7BK\u00b7TN = BN\u00b7TM\u00b7UNROLL",
+          "coef": -0.4523085097005426,
+          "p": 7.466409797372375e-07
+        },
+        {
+          "term": "BM\u00b7BK\u00b7UNROLL = BN\u00b7TM\u00b7TN",
+          "coef": 0.33101669571404513,
+          "p": 0.00026344288401179857
+        },
+        {
+          "term": "BM\u00b7TM\u00b7TN = BN\u00b7BK\u00b7UNROLL",
+          "coef": 0.09303359841221193,
+          "p": 0.24312847197188567
+        },
+        {
+          "term": "BM\u00b7TM\u00b7UNROLL = BN\u00b7BK\u00b7TN",
+          "coef": 0.03306410694894257,
+          "p": 0.698863808255008
+        },
+        {
+          "term": "BM\u00b7TN\u00b7UNROLL = BN\u00b7BK\u00b7TM",
+          "coef": 0.2417826546673782,
+          "p": 0.005479659593649895
+        }
+      ],
+      "share_of_quadratic_residual_ss_explained_by_3fi_pct": 59.074668698397
+    }
+  },
+  "preregistered_gate": {
+    "second_order_tflops_passed": false,
+    "second_order_log_latency_passed": false,
+    "outcome": "FAILED: the pre-registered second-order model is statistically inadequate (contract: do not optimise it)"
+  },
+  "deviation": {
+    "date": "2026-10-28",
+    "decided_by": "project owner, after seeing the failed gate",
+    "action": "report the failed gate as the answer to RQ2; then, as a further investigation, augment the second-order model with the 10 estimable 3-factor-interaction alias pairs (same CCD data, no new measurements), re-run the same gate and CV, and use the augmented model only as a proposal generator; the final configuration is chosen by measured validation. The second-order model's own top-3 are added to the validation set so its recommendation is tested too.",
+    "augmented_model_passes_gate": false
+  },
+  "model_used": "tflops_3fi",
+  "contamination": {
+    "measurements": 144,
+    "retried": 0,
+    "still_contended": 0,
+    "sm_clocks_seen_mhz": [
+      1830
+    ]
+  },
+  "canonical_analysis_second_order": {
+    "stationary_point_coded": {
+      "BM": -7.717899413553478,
+      "BN": 1.5476224562867473,
+      "BK": -3.9275666104080953,
+      "TM": 2.4512964134544983,
+      "TN": 0.9635282755757347,
+      "UNROLL": 0.3140603459277512
+    },
+    "eigenvalues": [
+      -5.250245975846813,
+      -1.9794787365746558,
+      -0.9949393053202799,
+      -0.3836398933678619,
+      -0.1357232440625651,
+      0.07945203249064733
+    ],
+    "nature_for_tflops": "saddle",
+    "stationary_point_inside_factorial_box": false
+  },
+  "optimisation": {
+    "permitted_region_size": 192,
+    "augmented_enumeration_best": {
+      "BM": 128,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "predicted_tflops": 35.82991369236973
+    },
+    "quadratic_enumeration_best": {
+      "BM": 64,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 4,
+      "UNROLL": 4,
+      "predicted_tflops": 35.00928292643169
+    },
+    "sqp_augmented": {
+      "continuous_optimum_coded": {
+        "BM": 1.0,
+        "BN": 1.0,
+        "BK": 1.0,
+        "TM": 1.0,
+        "TN": 0.12264514965689963,
+        "UNROLL": 0.3833289423573753
+      },
+      "predicted_tflops_continuous": 37.04059100221411,
+      "n_successful_starts": 30,
+      "projected": {
+        "BM": 128,
+        "BN": 128,
+        "BK": 32,
+        "TM": 8,
+        "TN": 8,
+        "UNROLL": 4
+      },
+      "projected_feasible": true
+    },
+    "sqp_quadratic": {
+      "continuous_optimum_coded": {
+        "BM": -0.9999999999999994,
+        "BN": 0.9999999999999988,
+        "BK": 0.9999999999999988,
+        "TM": 0.9999999999999988,
+        "TN": -0.04581505304150057,
+        "UNROLL": 0.38894714129034647
+      },
+      "predicted_tflops_continuous": 36.4730312215174,
+      "n_successful_starts": 30,
+      "projected": {
+        "BM": 64,
+        "BN": 128,
+        "BK": 32,
+        "TM": 8,
+        "TN": 4,
+        "UNROLL": 4
+      },
+      "projected_feasible": true
+    },
+    "sqp_neighbourhood_size": 96,
+    "validation_candidates": 15,
+    "extrapolated_optimum_outside_region": {
+      "BM": 128,
+      "BN": 256,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "predicted_tflops": 37.14629169933451
+    }
+  }
+}

@@ -1,0 +1,83 @@
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+{
+  "shape": 2048,
+  "design": "2^(6-1) res VI, I=ABCDEF",
+  "blocks": 3,
+  "r_squared": 0.9507401364120455,
+  "adj_r_squared": 0.9350043466547822,
+  "block_effect_p": 0.9979857880893079,
+  "factor_contributions": {
+    "BM": {
+      "main_effect_pct": 0.08203454220482392,
+      "total_incl_interactions_pct": 0.535049236019573,
+      "main_p": 0.27716185944537347,
+      "min_p_any_term": 0.06215649921751899
+    },
+    "BN": {
+      "main_effect_pct": 5.97571745780405,
+      "total_incl_interactions_pct": 16.18913176026804,
+      "main_p": 4.759508170676067e-14,
+      "min_p_any_term": 3.075820830427562e-16
+    },
+    "BK": {
+      "main_effect_pct": 8.399918988270956,
+      "total_incl_interactions_pct": 12.933605622973008,
+      "main_p": 3.23051712102722e-17,
+      "min_p_any_term": 3.23051712102722e-17
+    },
+    "TM": {
+      "main_effect_pct": 15.478104396326255,
+      "total_incl_interactions_pct": 20.158807114978575,
+      "main_p": 6.454333620351343e-24,
+      "min_p_any_term": 6.454333620351343e-24
+    },
+    "TN": {
+      "main_effect_pct": 2.913885107201298,
+      "total_incl_interactions_pct": 8.572939027896247,
+      "main_p": 8.163830841811825e-09,
+      "min_p_any_term": 6.153063725654544e-10
+    },
+    "UNROLL": {
+      "main_effect_pct": 44.32152499133945,
+      "total_incl_interactions_pct": 54.58675724465716,
+      "main_p": 9.952260688327637e-38,
+      "min_p_any_term": 9.952260688327637e-38
+    }
+  },
+  "diagnostics": {
+    "durbin_watson_run_order": 1.8270948385432106,
+    "shapiro_wilk_p": 0.4815846600382878,
+    "breusch_pagan_p": 7.061712249796565e-11,
+    "max_cooks_distance": 0.0636315327560373,
+    "n_cooks_gt_4_over_n": 7,
+    "residual_sd": 1.4504069497643173,
+    "replicate_cv_pct_median": 0.10654506877687106,
+    "replicate_cv_pct_max": 0.28288325266263703,
+    "pure_error_sd_tflops": 0.029917907909731832
+  },
+  "contamination": {
+    "measurements": 96,
+    "retried": 0,
+    "still_contended": 0,
+    "sm_clocks_seen_mhz": [
+      1830
+    ]
+  },
+  "invalid_measurements": {},
+  "significant_main_effects_tflops": [
+    "BK",
+    "BN",
+    "TM",
+    "TN",
+    "UNROLL"
+  ],
+  "significant_main_effects_log_latency": [
+    "BK",
+    "BN",
+    "TM",
+    "TN",
+    "UNROLL"
+  ],
+  "response_transform_changes_conclusion": false
+}

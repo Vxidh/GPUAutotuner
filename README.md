@@ -1,79 +1,14 @@
-# GPUAutotuner
+# DOE–RSM autotuning of a CUDA SGEMM kernel
 
-Milestone 1 of a hardware-aware CUDA GEMM autotuner: a reproducible correctness
-foundation and one parameterized tiled GEMM kernel. This version intentionally has no
-performance timing, search, DOE, or response-surface implementation.
+Minor project, Dept. of Mathematics, MIT Manipal. Design of experiments and response surface methodology used to tune six tiling parameters (BM, BN, BK, TM, TN, UNROLL) of a CUDA FP32 GEMM kernel on an H200, compared against exhaustive search, random search and cuBLAS.
 
-## Requirements
+DOE–RSM found (128,128,32,8,8,8) at 34.34 TFLOPS with 59 evaluations: #2 of 1,396 feasible configs, 0.17% from the exhaustive optimum (34.40 TFLOPS). Equal-budget random search had a median gap of 7.26%. The tuned kernel reaches 72% of cuBLAS FP32 and 2.61× the untuned default.
 
-- CMake 3.24 or newer
-- A C++17 compiler
-- NVIDIA CUDA Toolkit with `nvcc`
-- A CUDA-capable GPU and compatible driver to execute the programs
-
-No Python framework or binding is used.
-
-## Start here
-
-1. Read [the short-term project plan](docs/next-72-hours.md).
-2. Record the GPU, driver, CUDA toolkit, compiler, and clock/power settings in
-   [the environment record](experiments/environment.md).
-3. Build and pass the Milestone 1 correctness suite before collecting performance data
-   or implementing DOE/RSM.
-
-## Configure and build
-
-Choose the CUDA architecture for the target GPU at configure time. For example, use
-`86` for a device whose desired CMake architecture is 86:
-
-```sh
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DCMAKE_CUDA_ARCHITECTURES=86
-cmake --build build --config Release
-```
-
-If `CMAKE_CUDA_ARCHITECTURES` is omitted, CMake uses the CUDA compiler's default. The
-project does not hard-code a particular GPU.
-
-## Run
-
-The standalone program accepts `M N K [relative_tolerance]`:
-
-```sh
-./build/gemm_experiment 127 131 37 1e-4
-```
-
-It creates deterministic inputs, compares the tiled GPU result with a CPU reference,
-and prints device, CUDA, configuration, launch, shared-memory, and error metadata.
-
-Two introductory standalone examples from the project foundation are also retained:
-
-- `vector_add` demonstrates one thread producing one output element.
-- `naive_gemm` is a small square-matrix CUDA GEMM example. The tested naive
-  reference used by Milestone 1 itself remains part of `gemm_kernels`.
-
-Run all five correctness shapes through CTest:
-
-```sh
-ctest --test-dir build --output-on-failure -C Release
-```
-
-The correctness executable also accepts an optional relative tolerance, defaulting to
-`1e-4`: `correctness_tests 1e-4`.
-
-If Compute Sanitizer is installed, run:
-
-```sh
-compute-sanitizer --tool memcheck ./build/correctness_tests
-```
-
-On multi-configuration generators the executable may instead be under
-`build/Release/`. See [the kernel mapping](docs/kernel_mapping.md) for the exact thread
-and memory indexing model and [the frozen experiment configuration](configs/experiment.yaml)
-for numerical semantics.
-
-## Research planning documents
-
-Future work is outlined in [the experiment protocol](docs/experiment-protocol.md),
-[publication roadmap](docs/publication-roadmap.md), and
-[reading list](references/reading-list.md). These documents describe later stages;
-their timing, search, DOE, and RSM work is intentionally not implemented in Milestone 1.
+| Path | Contents |
+|---|---|
+| `cuda/` | Tunable SGEMM kernel and benchmark harness |
+| `python/` | Design space, designs, run pipeline, analysis, figures |
+| `contract.json` | Pre-registered analysis contract (sha in `contract.sha`) |
+| `run_phase1.sh`, `run_phase2.sh`, `phase*.log` | Final-run drivers and their logs |
+| `results/final_20261028/` | Raw measurements, decisions, analysis outputs |
+| `deliverables/` | Report and deck builders, figures, final PDFs and PPTX |

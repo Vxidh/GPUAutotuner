@@ -1,0 +1,191 @@
+findfont: Failed to find font weight semibold for DejaVu Sans, now using 700.
+{
+  "sample_efficiency": {
+    "doe_rsm_unique_evaluations_B": 59,
+    "feasible_space": 1396,
+    "doe_rsm_selected": "BM128_BN128_BK32_TM8_TN8_UNROLL8",
+    "doe_rsm_selected_tflops_exhaustive_measurement": 34.3429789942508,
+    "doe_rsm_best_evaluated_tflops": 34.3429789942508,
+    "random_search_at_B": {
+      "median_best": 32.07329716005406,
+      "p10": 30.496448297653284,
+      "p90": 33.22902123346756,
+      "prob_random_matches_or_beats_doe_rsm": 0.078
+    },
+    "random_search_evals_to_match_doe_rsm": {
+      "median": 424.5,
+      "p10": 77.0,
+      "p90": 936.1000000000001
+    },
+    "exhaustive": {
+      "best": "BM64_BN128_BK64_TM8_TN8_UNROLL8",
+      "t_min_ms": 3.9951,
+      "best_tflops": 34.4019057333439
+    },
+    "optimality_gap_pct": {
+      "doe_rsm_selected": 0.16830617506445833,
+      "random_search_median_at_B": 7.260193737328232,
+      "untuned_default": 161.4799128932943
+    },
+    "doe_rsm_selected_rank_in_exhaustive": 2
+  },
+  "model_vs_ground_truth": {
+    "inside_region_median_abs_pct_err": 4.950265607873068,
+    "outside_region_median_abs_pct_err": 22.67998115252381,
+    "quadratic_inside_region_median_abs_pct_err": 5.452139461974136,
+    "quadratic_outside_region_median_abs_pct_err": 21.779874984501255,
+    "spearman_all_feasible_augmented": 0.772852549530827,
+    "spearman_all_feasible_quadratic": 0.8209304945746534,
+    "n_inside": 192,
+    "n_outside": 1204,
+    "extrapolated_optimum": 37.14629169933451,
+    "extrapolated_optimum_measured": 30.540686591149885
+  },
+  "cublas_comparison": [
+    {
+      "cublas_mode": "default",
+      "config": "default",
+      "cfg_key": "BM64_BN64_BK8_TM4_TN4_UNROLL1",
+      "custom_median_ms": 10.449504,
+      "custom_iqr_ms": 0.018343999999999028,
+      "cublas_median_ms": 2.881088,
+      "cublas_iqr_ms": 0.0044800000000000395,
+      "custom_tflops": 13.152677244010816,
+      "cublas_tflops": 47.703837394761976,
+      "speed_ratio_S": 0.27571528753900665,
+      "attained_pct": 27.57152875390067,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    },
+    {
+      "cublas_mode": "default",
+      "config": "exhaustive_best",
+      "cfg_key": "BM64_BN128_BK64_TM8_TN8_UNROLL8",
+      "custom_median_ms": 3.994224,
+      "custom_iqr_ms": 0.006864000000000203,
+      "cublas_median_ms": 2.882496,
+      "cublas_iqr_ms": 0.004895999999999567,
+      "custom_tflops": 34.409425578535405,
+      "cublas_tflops": 47.68053571349275,
+      "speed_ratio_S": 0.7216660858279356,
+      "attained_pct": 72.16660858279357,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    },
+    {
+      "cublas_mode": "default",
+      "config": "rsm_selected",
+      "cfg_key": "BM128_BN128_BK32_TM8_TN8_UNROLL8",
+      "custom_median_ms": 4.001568,
+      "custom_iqr_ms": 0.0014399999999996638,
+      "cublas_median_ms": 2.881568,
+      "cublas_iqr_ms": 0.0052480000000003635,
+      "custom_tflops": 34.34627462834569,
+      "cublas_tflops": 47.695891081522284,
+      "speed_ratio_S": 0.7201097169909396,
+      "attained_pct": 72.01097169909397,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    },
+    {
+      "cublas_mode": "pedantic",
+      "config": "default",
+      "cfg_key": "BM64_BN64_BK8_TM4_TN4_UNROLL1",
+      "custom_median_ms": 10.447296,
+      "custom_iqr_ms": 0.016792000000000584,
+      "cublas_median_ms": 2.881792,
+      "cublas_iqr_ms": 0.0034400000000003317,
+      "custom_tflops": 13.155457017011866,
+      "cublas_tflops": 47.69218370791508,
+      "speed_ratio_S": 0.27584094487224253,
+      "attained_pct": 27.584094487224252,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    },
+    {
+      "cublas_mode": "pedantic",
+      "config": "exhaustive_best",
+      "cfg_key": "BM64_BN128_BK64_TM8_TN8_UNROLL8",
+      "custom_median_ms": 3.99344,
+      "custom_iqr_ms": 0.006559999999999899,
+      "cublas_median_ms": 2.882384,
+      "cublas_iqr_ms": 0.0046879999999998034,
+      "custom_tflops": 34.41618090468368,
+      "cublas_tflops": 47.68238842291659,
+      "speed_ratio_S": 0.7217797187387315,
+      "attained_pct": 72.17797187387315,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    },
+    {
+      "cublas_mode": "pedantic",
+      "config": "rsm_selected",
+      "cfg_key": "BM128_BN128_BK32_TM8_TN8_UNROLL8",
+      "custom_median_ms": 4.001472,
+      "custom_iqr_ms": 0.0015999999999998238,
+      "cublas_median_ms": 2.88104,
+      "cublas_iqr_ms": 0.0042239999999997835,
+      "custom_tflops": 34.34709863570206,
+      "cublas_tflops": 47.704632171715765,
+      "speed_ratio_S": 0.7199950418246086,
+      "attained_pct": 71.99950418246085,
+      "n_launches_each": 900,
+      "rel_fro_err_vs_cublas": 0.0,
+      "contended_blocks": 0
+    }
+  ],
+  "shapes": {
+    "total_contribution_pct": {
+      "4096": {
+        "BM": 1.855002060892511,
+        "BN": 15.094154985958921,
+        "BK": 11.767540129456426,
+        "TM": 22.737405461611512,
+        "TN": 7.631411815102697,
+        "UNROLL": 54.29441725579177
+      },
+      "2048": {
+        "BM": 0.535049236019573,
+        "BN": 16.18913176026804,
+        "BK": 12.933605622973008,
+        "TM": 20.158807114978575,
+        "TN": 8.572939027896247,
+        "UNROLL": 54.58675724465716
+      },
+      "1024": {
+        "BM": 23.573823821424497,
+        "BN": 17.49285196059099,
+        "BK": 9.621031503469478,
+        "TM": 3.180083224064041,
+        "TN": 14.19404664718165,
+        "UNROLL": 50.50760460582623
+      }
+    },
+    "kendall_tau_rank_agreement": {
+      "4096_vs_2048": 0.9999999999999999,
+      "4096_vs_1024": -0.06666666666666665
+    }
+  },
+  "registers": {
+    "configs_with_spills": 28,
+    "regs_range": [
+      20,
+      255
+    ],
+    "spearman_tflops_vs_regs": 0.4660606491165136,
+    "spearman_tflops_vs_occupancy": -0.45130691001851175
+  },
+  "offline_cost": {
+    "unique_compiles": 1394,
+    "compile_s_total": 3355.203,
+    "compile_s_median": 2.392,
+    "measurements_total": 2001,
+    "retried_measurements": 37,
+    "still_contended_measurements": 1
+  }
+}

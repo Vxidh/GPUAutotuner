@@ -1,0 +1,101 @@
+{
+  "_purpose": "Frozen experimental contract (execution plan Phase 0). Written and committed BEFORE any final-protocol measurement. The analysis code reads these values; none may be changed after data collection starts.",
+  "frozen_at": "2026-10-28",
+
+  "hardware_software": {
+    "gpu": "NVIDIA H200 (sm_90, 132 SMs), single GPU, shared host (other tenants present)",
+    "driver": "595.71.05",
+    "cuda_toolkit": "13.0.88",
+    "cublas": "13.1.1.3 (cublasGetVersion 130101)",
+    "nvcc_flags": "-O3 -std=c++17 -arch=sm_90",
+    "os_kernel": "Linux 6.8.0-138-generic, Ubuntu 24.04.5",
+    "python_stack": "numpy 2.5.4, scipy 1.18.1, statsmodels 0.15.0, pandas 3.1.0, pyDOE3"
+  },
+
+  "numerical_semantics": {
+    "operation": "C = A*B (alpha=1, beta=0), row-major A[MxK], B[KxN], C[MxN]",
+    "input_type": "FP32", "accumulator_type": "FP32",
+    "custom_kernel_math": "CUDA-core FFMA only, no Tensor Cores",
+    "cublas_call": "cublasSgemm computing C^T = B^T A^T in column-major (equivalent to row-major C = A B), leading dimensions N, K, N",
+    "cublas_math_modes": ["CUBLAS_DEFAULT_MATH", "CUBLAS_PEDANTIC_MATH"],
+    "tf32": "disallowed: NVIDIA_TF32_OVERRIDE=0 exported for every process; neither math mode enables TF32",
+    "inputs": "uniform[-1,1) from a splitmix64 hash of (seed, index), generated on device; seed 42 (A), 42 xor 0xABCDEF1234567 (B)"
+  },
+
+  "correctness": {
+    "metric": "relative Frobenius error ||C_custom - C_cublas||_F / ||C_cublas||_F computed in float64",
+    "tolerance": 1e-5,
+    "tolerance_rationale": "pilot: FP32 rounding error vs a float64 CPU reference is ~6e-7 at 1024^3; a deliberately injected fault (one K-tile dropped) produces >= 0.044 at 4096^3. 1e-5 sits ~10x above rounding error and ~4000x below the smallest fault.",
+    "when": "every configuration is verified once per shape on its first evaluation; a configuration exceeding tolerance or producing non-finite output is classified numerically_invalid and excluded from every analysis",
+    "independent_check": "default and selected configurations additionally checked against a float64 CPU reference at 512^3 and 1024^3"
+  },
+
+  "feasibility": {
+    "constraints": "python/design_space.py::is_valid, mirrored 1:1 by static_asserts in cuda/gemm_kernel.cuh; agreement proven over all 2304 candidates (results/feasibility_audit.csv)",
+    "validity_classes": ["valid", "constraint_infeasible:<reason>", "compile_invalid", "launch_invalid", "numerically_invalid"]
+  },
+
+  "timing": {
+    "boundary": "CUDA event pair around each individual kernel launch on the default stream; excludes allocation, initialisation, transfers, verification, compilation",
+    "per_shape": {
+      "4096": {"warmup": 10, "iters": 30},
+      "2048": {"warmup": 25, "iters": 80},
+      "1024": {"warmup": 100, "iters": 300}
+    },
+    "summary_statistic": "median of the per-launch latencies within one measurement block; IQR reported; all raw per-launch latencies retained",
+    "response_for_models": "TFLOPS = 2*M*N*K / (median_latency_s * 1e12)",
+    "clock_policy": "SM clock lock requested at 1980 MHz and memory at 3201 MHz via nvidia-smi -lgc/-lmc for the entire run; the clock actually achieved under load is recorded per measurement",
+    "contention_policy": "other tenants share this GPU. For every measurement, NVML per-process SM utilisation samples covering the measurement window are read; if any process other than the benchmark shows smUtil > 0 the measurement is classified contended and repeated (max 6 attempts). The last attempt is kept and flagged if all are contended. Contention counts are reported.",
+    "stability_gate": "before the experiments, one fixed configuration is measured in 10 separated blocks; proceed only if the coefficient of variation of block medians is <= 1.0%"
+  },
+
+  "randomisation": {
+    "seed": 20261028,
+    "scheme": "each experiment is run as R replicate blocks; within a block every design point appears once, in an independently shuffled order. Replicates of the same point therefore never run back to back.",
+    "replicate_blocks": {"screening": 3, "ccd": 3, "validation": 5, "exhaustive": 1, "exhaustive_top_recheck": 3, "final_comparison": 3}
+  },
+
+  "evaluation_definition": "one evaluation = one unique feasible configuration on one shape (compile or reuse, verify once, measure with the timing protocol). Replicate blocks and individual launches are NOT separate evaluations.",
+
+  "screening": {
+    "design": "2^(6-1) fractional factorial, generator F = ABCDE, defining relation I = ABCDEF, resolution VI (main effects aliased only with 5-factor interactions, 2-factor interactions only with 4-factor interactions)",
+    "factors_low_high": {"BM": [64, 128], "BN": [64, 128], "BK": [8, 32], "TM": [4, 8], "TN": [4, 8], "UNROLL": [1, 8]},
+    "center_points": "none: the midpoint of each power-of-two pair is not a legal configuration; pure error comes from 3 replicate blocks",
+    "model": "TFLOPS ~ block + all main effects + all 2-factor interactions, coded +-1, OLS, Type II ANOVA",
+    "shapes": [[4096, 4096, 4096], [2048, 2048, 2048], [1024, 1024, 1024]],
+    "primary_shape": [4096, 4096, 4096],
+    "retention_rule": "at the primary shape, a factor is retained for the response-surface study if its main effect OR any 2-factor interaction containing it is significant at alpha = 0.05. Non-retained factors are fixed at the level with the higher marginal mean TFLOPS."
+  },
+
+  "response_surface": {
+    "design": "central composite design in log2-coded units on the retained factors; factorial core = the screening design restricted to retained factors (2^(6-1) core if 6 retained, full 2^k if k <= 5); 2k axial points at rotatable alpha = (core size)^(1/4); 4 center points",
+    "coding": "x = (log2(level) - c) / h with c, h taken from the screening low/high levels",
+    "lattice_mapping": "each coded point is mapped to the nearest legal power-of-two level per factor (ties resolved to the lower level). The model is fit on the REALISED coded values, not the nominal ones.",
+    "model": "full second-order polynomial (hierarchical) + block term, OLS",
+    "diagnostics": ["R2", "adjusted R2", "PRESS and predicted R2", "leave-one-design-point-out CV RMSE", "lack-of-fit F test vs pure error", "residual vs fitted", "normal Q-Q", "residuals vs run order + Durbin-Watson on run order", "Cook's distance"],
+    "adequacy_gate": "optimise only if lack-of-fit p >= 0.01 OR LOF mean square < 5% of model mean square (practically negligible); otherwise report the failure and the remedy tried"
+  },
+
+  "optimisation": {
+    "permitted_region": "the factorial box [-1, 1] on every retained coded factor (all joint combinations tested by the factorial core), intersected with the feasible set",
+    "methods": [
+      "SQP (scipy SLSQP, 30 random starts) on the continuous relaxation with the shared-memory and thread-count constraints, then projection to the lattice and its feasible +-1-level neighbourhood",
+      "exhaustive evaluation of the fitted model over every feasible lattice configuration inside the permitted region"
+    ],
+    "validation": "the union of the top-5 model-ranked configurations and the SQP neighbourhood (capped at 12) is benchmarked in 5 randomised replicate blocks; the selected configuration is the one with the best measured median TFLOPS",
+    "extrapolation_check": "the model optimum over the whole feasible set (outside the permitted region) is reported together with its measured value from the exhaustive sweep, to quantify extrapolation error"
+  },
+
+  "baselines": {
+    "exhaustive": "all 1396 feasible configurations at 4096^3, randomised order, 1 block, every one verified; the top 20 then re-measured in 3 further randomised blocks to fix t_min robustly",
+    "random_search": "equal budget B = number of unique evaluations consumed by DOE-RSM (screening + CCD + validation, primary shape). 10000 random-search trials, each sampling B configurations without replacement from the feasible set, scored with the exhaustive-sweep measurements",
+    "optimality_gap": "G = (t(x_hat) - t_min) / t_min * 100%, latencies from the exhaustive sweep (plus top-20 recheck where available)",
+    "cublas": "interleaved in-process comparison: 3 randomised process-level blocks per cuBLAS math mode; each process runs 10 internal blocks of 30 custom + 30 cuBLAS launches with the order alternating per block. Configurations: untuned default (64,64,8,4,4,1), DOE-RSM selected configuration, exhaustive best"
+  },
+
+  "claims": {
+    "primary": "Classical DOE and RSM can identify a high-performing configuration of this parameterised CUDA SGEMM using fewer empirical evaluations than uninformed search.",
+    "secondary": "On this H200 / CUDA 13.0 / FP32 / 4096^3 setup the selected kernel attained p% of matched cuBLAS throughput.",
+    "never": "never claim the statistical optimiser is faster than cuBLAS; never generalise beyond the tested GPU and shapes"
+  }
+}

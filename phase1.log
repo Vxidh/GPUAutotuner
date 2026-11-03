@@ -1,0 +1,58 @@
+[stability 4096^3] 10/20 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[stability 4096^3] 20/20 measured | retried 0 | still contended 0 | last clock 1830 MHz
+{
+  "alt": {
+    "block_medians_ms": [
+      4.00138,
+      4.00184,
+      4.01019,
+      4.00158,
+      4.00918,
+      4.00195,
+      4.00979,
+      4.00934,
+      4.00157,
+      4.00997
+    ],
+    "cv_percent": 0.10598434309313057,
+    "contended_blocks": 0,
+    "sm_clocks_seen": [
+      1830
+    ]
+  },
+  "default": {
+    "block_medians_ms": [
+      10.44234,
+      10.44498,
+      10.44968,
+      10.452,
+      10.45312,
+      10.45285,
+      10.45085,
+      10.45038,
+      10.44859,
+      10.45146
+    ],
+    "cv_percent": 0.033376947701480315,
+    "contended_blocks": 0,
+    "sm_clocks_seen": [
+      1830
+    ]
+  },
+  "gate_cv_max_percent": 1.0,
+  "gate_passed": true
+}
+STABILITY GATE PASSED
+[screening 4096^3] 25/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 4096^3] 50/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 4096^3] 75/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 4096^3] 96/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 2048^3] 25/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 2048^3] 50/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 2048^3] 75/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 2048^3] 96/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 1024^3] 25/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 1024^3] 50/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 1024^3] 75/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[screening 1024^3] 96/96 measured | retried 0 | still contended 0 | last clock 1830 MHz
+PHASE1_DONE

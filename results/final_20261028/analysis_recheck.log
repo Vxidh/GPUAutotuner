@@ -1,0 +1,22 @@
+{
+  "exhaustive_best": {
+    "BM": 64,
+    "BN": 128,
+    "BK": 64,
+    "TM": 8,
+    "TN": 8,
+    "UNROLL": 8
+  },
+  "rsm_selected": {
+    "BM": 128,
+    "BN": 128,
+    "BK": 32,
+    "TM": 8,
+    "TN": 8,
+    "UNROLL": 8
+  },
+  "t_min_ms": 3.9951,
+  "best_tflops": 34.4019057333439,
+  "best_vs_second_welch_p": 0.041962100169995895,
+  "top_rank_changed_by_recheck": false
+}

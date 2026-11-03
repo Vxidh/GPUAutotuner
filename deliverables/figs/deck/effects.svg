@@ -1,0 +1,368 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="980pt" height="620pt" viewBox="0 0 980 620" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 620 
+L 980 620 
+L 980 0 
+L 0 0 
+L 0 620 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 245 545.6 
+L 931 545.6 
+L 931 24.8 
+L 245 24.8 
+L 245 545.6 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 316.272727 545.6 
+L 316.272727 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="316.272727" y="570.807617" transform="rotate(-0 316.272727 570.807617)">−4</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 405.363636 545.6 
+L 405.363636 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="405.363636" y="570.807617" transform="rotate(-0 405.363636 570.807617)">−2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 494.454545 545.6 
+L 494.454545 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="494.454545" y="570.807617" transform="rotate(-0 494.454545 570.807617)">0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 583.545455 545.6 
+L 583.545455 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="583.545455" y="570.807617" transform="rotate(-0 583.545455 570.807617)">2</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 672.636364 545.6 
+L 672.636364 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="672.636364" y="570.807617" transform="rotate(-0 672.636364 570.807617)">4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 761.727273 545.6 
+L 761.727273 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="761.727273" y="570.807617" transform="rotate(-0 761.727273 570.807617)">6</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 850.818182 545.6 
+L 850.818182 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.84"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="850.818182" y="570.807617" transform="rotate(-0 850.818182 570.807617)">8</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 19.8px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="588" y="594.450094" transform="rotate(-0 588 594.450094)">effect on TFLOPS, high − low level (95% CI)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="517.563324" transform="rotate(-0 234 517.563324)">BM</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="476.607049" transform="rotate(-0 234 476.607049)">TM × UNROLL</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17"/>
+     <g id="text_11">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="435.650773" transform="rotate(-0 234 435.650773)">BK × UNROLL</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_18"/>
+     <g id="text_12">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="394.694497" transform="rotate(-0 234 394.694497)">BN × BK</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19"/>
+     <g id="text_13">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="353.738222" transform="rotate(-0 234 353.738222)">BK × TN</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_20"/>
+     <g id="text_14">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="312.781946" transform="rotate(-0 234 312.781946)">TN</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_21"/>
+     <g id="text_15">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="271.825671" transform="rotate(-0 234 271.825671)">TM × TN</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_22"/>
+     <g id="text_16">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="230.869395" transform="rotate(-0 234 230.869395)">BN</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_23"/>
+     <g id="text_17">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="189.91312" transform="rotate(-0 234 189.91312)">BN × UNROLL</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_24"/>
+     <g id="text_18">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="148.956844" transform="rotate(-0 234 148.956844)">BK</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_25"/>
+     <g id="text_19">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="108.000569" transform="rotate(-0 234 108.000569)">TM</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_26"/>
+     <g id="text_20">
+      <text style="font-size: 18.7px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="234" y="67.044293" transform="rotate(-0 234 67.044293)">UNROLL</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 494.454545 521.927273 
+L 460.535056 521.927273 
+L 460.535056 498.991758 
+L 494.454545 498.991758 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #141414"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 494.454545 480.970997 
+L 547.030367 480.970997 
+L 547.030367 458.035483 
+L 494.454545 458.035483 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 494.454545 440.014722 
+L 549.415146 440.014722 
+L 549.415146 417.079207 
+L 494.454545 417.079207 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 494.454545 399.058446 
+L 550.948655 399.058446 
+L 550.948655 376.122932 
+L 494.454545 376.122932 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 494.454545 358.10217 
+L 437.686698 358.10217 
+L 437.686698 335.166656 
+L 494.454545 335.166656 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 494.454545 317.145895 
+L 420.375093 317.145895 
+L 420.375093 294.210381 
+L 494.454545 294.210381 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #141414"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 494.454545 276.189619 
+L 596.463027 276.189619 
+L 596.463027 253.254105 
+L 494.454545 253.254105 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 494.454545 235.233344 
+L 620.592203 235.233344 
+L 620.592203 212.29783 
+L 494.454545 212.29783 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #141414"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 494.454545 194.277068 
+L 358.018104 194.277068 
+L 358.018104 171.341554 
+L 494.454545 171.341554 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #2f4b66"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 494.454545 153.320793 
+L 640.379445 153.320793 
+L 640.379445 130.385278 
+L 494.454545 130.385278 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #141414"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 494.454545 112.364517 
+L 713.393964 112.364517 
+L 713.393964 89.429003 
+L 494.454545 89.429003 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #141414"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 494.454545 71.408242 
+L 846.656866 71.408242 
+L 846.656866 48.472727 
+L 494.454545 48.472727 
+z
+" clip-path="url(#p11501ab7c7)" style="fill: #e4472b"/>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 435.659351 510.459516 
+L 485.410762 510.459516 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 522.154661 469.50324 
+L 571.906072 469.50324 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 524.539441 428.546964 
+L 574.290852 428.546964 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 526.07295 387.590689 
+L 575.824361 387.590689 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 412.810993 346.634413 
+L 462.562404 346.634413 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 395.499387 305.678138 
+L 445.250798 305.678138 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 571.587322 264.721862 
+L 621.338733 264.721862 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 595.716497 223.765587 
+L 645.467908 223.765587 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 333.142398 182.809311 
+L 382.893809 182.809311 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 615.50374 141.853036 
+L 665.255151 141.853036 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 688.518258 100.89676 
+L 738.269669 100.89676 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+    <path d="M 821.781161 59.940484 
+L 871.532572 59.940484 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #8a857a; stroke-width: 1.44"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 494.454545 545.6 
+L 494.454545 24.8 
+" clip-path="url(#p11501ab7c7)" style="fill: none; stroke: #141414; stroke-width: 1.2"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 245 545.6 
+L 931 545.6 
+" style="fill: none; stroke: #141414; stroke-width: 1.2; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="424.522987" y="515.031391" transform="rotate(-0 424.522987 515.031391)">-0.8</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="583.042436" y="474.075115" transform="rotate(-0 583.042436 474.075115)">+1.2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="585.427216" y="433.118839" transform="rotate(-0 585.427216 433.118839)">+1.2</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="586.960724" y="392.162564" transform="rotate(-0 586.960724 392.162564)">+1.3</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="401.674629" y="351.206288" transform="rotate(-0 401.674629 351.206288)">-1.3</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="384.363024" y="310.250013" transform="rotate(-0 384.363024 310.250013)">-1.7</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="632.475096" y="269.293737" transform="rotate(-0 632.475096 269.293737)">+2.3</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="656.604272" y="228.337462" transform="rotate(-0 656.604272 228.337462)">+2.8</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="322.006034" y="187.381186" transform="rotate(-0 322.006034 187.381186)">-3.1</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="676.391514" y="146.424911" transform="rotate(-0 676.391514 146.424911)">+3.3</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="749.406033" y="105.468635" transform="rotate(-0 749.406033 105.468635)">+4.9</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 17.6px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="882.668935" y="64.512359" transform="rotate(-0 882.668935 64.512359)">+7.9</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p11501ab7c7">
+   <rect x="245" y="24.8" width="686" height="520.8"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,7 @@
+CCD: 48 points on ['BM', 'BN', 'BK', 'TM', 'TN', 'UNROLL'], fixed {}, alpha=2.378
+[ccd 4096^3] 25/144 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[ccd 4096^3] 50/144 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[ccd 4096^3] 75/144 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[ccd 4096^3] 100/144 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[ccd 4096^3] 125/144 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[ccd 4096^3] 144/144 measured | retried 0 | still contended 0 | last clock 1830 MHz

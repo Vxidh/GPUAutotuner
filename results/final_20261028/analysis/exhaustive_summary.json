@@ -1,0 +1,18 @@
+{
+  "attempted": 1396,
+  "valid": 1396,
+  "by_validity": {
+    "valid": 1396
+  },
+  "numerically_invalid": [],
+  "spilling_configs": 28,
+  "max_rel_fro_err_valid": 0.0,
+  "contamination": {
+    "measurements": 1396,
+    "retried": 37,
+    "still_contended": 1,
+    "sm_clocks_seen_mhz": [
+      1830
+    ]
+  }
+}

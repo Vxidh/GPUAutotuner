@@ -1,0 +1,2305 @@
+BM,BN,BK,TM,TN,UNROLL,python_valid,python_reason,nvcc_compiles,nvcc_message
+32,32,8,2,2,1,True,ok,True,
+32,32,8,2,2,2,True,ok,True,
+32,32,8,2,2,4,True,ok,True,
+32,32,8,2,2,8,True,ok,True,
+32,32,8,2,4,1,True,ok,True,
+32,32,8,2,4,2,True,ok,True,
+32,32,8,2,4,4,True,ok,True,
+32,32,8,2,4,8,True,ok,True,
+32,32,8,2,8,1,True,ok,True,
+32,32,8,2,8,2,True,ok,True,
+32,32,8,2,8,4,True,ok,True,
+32,32,8,2,8,8,True,ok,True,
+32,32,8,4,2,1,True,ok,True,
+32,32,8,4,2,2,True,ok,True,
+32,32,8,4,2,4,True,ok,True,
+32,32,8,4,2,8,True,ok,True,
+32,32,8,4,4,1,True,ok,True,
+32,32,8,4,4,2,True,ok,True,
+32,32,8,4,4,4,True,ok,True,
+32,32,8,4,4,8,True,ok,True,
+32,32,8,4,8,1,True,ok,True,
+32,32,8,4,8,2,True,ok,True,
+32,32,8,4,8,4,True,ok,True,
+32,32,8,4,8,8,True,ok,True,
+32,32,8,8,2,1,True,ok,True,
+32,32,8,8,2,2,True,ok,True,
+32,32,8,8,2,4,True,ok,True,
+32,32,8,8,2,8,True,ok,True,
+32,32,8,8,4,1,True,ok,True,
+32,32,8,8,4,2,True,ok,True,
+32,32,8,8,4,4,True,ok,True,
+32,32,8,8,4,8,True,ok,True,
+32,32,8,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,8,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,8,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,8,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,16,2,2,1,True,ok,True,
+32,32,16,2,2,2,True,ok,True,
+32,32,16,2,2,4,True,ok,True,
+32,32,16,2,2,8,True,ok,True,
+32,32,16,2,4,1,True,ok,True,
+32,32,16,2,4,2,True,ok,True,
+32,32,16,2,4,4,True,ok,True,
+32,32,16,2,4,8,True,ok,True,
+32,32,16,2,8,1,True,ok,True,
+32,32,16,2,8,2,True,ok,True,
+32,32,16,2,8,4,True,ok,True,
+32,32,16,2,8,8,True,ok,True,
+32,32,16,4,2,1,True,ok,True,
+32,32,16,4,2,2,True,ok,True,
+32,32,16,4,2,4,True,ok,True,
+32,32,16,4,2,8,True,ok,True,
+32,32,16,4,4,1,True,ok,True,
+32,32,16,4,4,2,True,ok,True,
+32,32,16,4,4,4,True,ok,True,
+32,32,16,4,4,8,True,ok,True,
+32,32,16,4,8,1,True,ok,True,
+32,32,16,4,8,2,True,ok,True,
+32,32,16,4,8,4,True,ok,True,
+32,32,16,4,8,8,True,ok,True,
+32,32,16,8,2,1,True,ok,True,
+32,32,16,8,2,2,True,ok,True,
+32,32,16,8,2,4,True,ok,True,
+32,32,16,8,2,8,True,ok,True,
+32,32,16,8,4,1,True,ok,True,
+32,32,16,8,4,2,True,ok,True,
+32,32,16,8,4,4,True,ok,True,
+32,32,16,8,4,8,True,ok,True,
+32,32,16,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,16,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,16,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,16,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,32,32,2,2,1,True,ok,True,
+32,32,32,2,2,2,True,ok,True,
+32,32,32,2,2,4,True,ok,True,
+32,32,32,2,2,8,True,ok,True,
+32,32,32,2,4,1,True,ok,True,
+32,32,32,2,4,2,True,ok,True,
+32,32,32,2,4,4,True,ok,True,
+32,32,32,2,4,8,True,ok,True,
+32,32,32,2,8,1,True,ok,True,
+32,32,32,2,8,2,True,ok,True,
+32,32,32,2,8,4,True,ok,True,
+32,32,32,2,8,8,True,ok,True,
+32,32,32,4,2,1,True,ok,True,
+32,32,32,4,2,2,True,ok,True,
+32,32,32,4,2,4,True,ok,True,
+32,32,32,4,2,8,True,ok,True,
+32,32,32,4,4,1,True,ok,True,
+32,32,32,4,4,2,True,ok,True,
+32,32,32,4,4,4,True,ok,True,
+32,32,32,4,4,8,True,ok,True,
+32,32,32,4,8,1,True,ok,True,
+32,32,32,4,8,2,True,ok,True,
+32,32,32,4,8,4,True,ok,True,
+32,32,32,4,8,8,True,ok,True,
+32,32,32,8,2,1,True,ok,True,
+32,32,32,8,2,2,True,ok,True,
+32,32,32,8,2,4,True,ok,True,
+32,32,32,8,2,8,True,ok,True,
+32,32,32,8,4,1,True,ok,True,
+32,32,32,8,4,2,True,ok,True,
+32,32,32,8,4,4,True,ok,True,
+32,32,32,8,4,8,True,ok,True,
+32,32,32,8,8,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,32,8,8,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,32,8,8,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,32,8,8,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,2,2,1,True,ok,True,
+32,32,64,2,2,2,True,ok,True,
+32,32,64,2,2,4,True,ok,True,
+32,32,64,2,2,8,True,ok,True,
+32,32,64,2,4,1,True,ok,True,
+32,32,64,2,4,2,True,ok,True,
+32,32,64,2,4,4,True,ok,True,
+32,32,64,2,4,8,True,ok,True,
+32,32,64,2,8,1,True,ok,True,
+32,32,64,2,8,2,True,ok,True,
+32,32,64,2,8,4,True,ok,True,
+32,32,64,2,8,8,True,ok,True,
+32,32,64,4,2,1,True,ok,True,
+32,32,64,4,2,2,True,ok,True,
+32,32,64,4,2,4,True,ok,True,
+32,32,64,4,2,8,True,ok,True,
+32,32,64,4,4,1,True,ok,True,
+32,32,64,4,4,2,True,ok,True,
+32,32,64,4,4,4,True,ok,True,
+32,32,64,4,4,8,True,ok,True,
+32,32,64,4,8,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,4,8,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,4,8,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,4,8,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,2,1,True,ok,True,
+32,32,64,8,2,2,True,ok,True,
+32,32,64,8,2,4,True,ok,True,
+32,32,64,8,2,8,True,ok,True,
+32,32,64,8,4,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,4,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,4,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,4,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,8,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,8,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,8,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,32,64,8,8,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,64,8,2,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,64,8,2,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,64,8,2,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,64,8,2,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,64,8,2,4,1,True,ok,True,
+32,64,8,2,4,2,True,ok,True,
+32,64,8,2,4,4,True,ok,True,
+32,64,8,2,4,8,True,ok,True,
+32,64,8,2,8,1,True,ok,True,
+32,64,8,2,8,2,True,ok,True,
+32,64,8,2,8,4,True,ok,True,
+32,64,8,2,8,8,True,ok,True,
+32,64,8,4,2,1,True,ok,True,
+32,64,8,4,2,2,True,ok,True,
+32,64,8,4,2,4,True,ok,True,
+32,64,8,4,2,8,True,ok,True,
+32,64,8,4,4,1,True,ok,True,
+32,64,8,4,4,2,True,ok,True,
+32,64,8,4,4,4,True,ok,True,
+32,64,8,4,4,8,True,ok,True,
+32,64,8,4,8,1,True,ok,True,
+32,64,8,4,8,2,True,ok,True,
+32,64,8,4,8,4,True,ok,True,
+32,64,8,4,8,8,True,ok,True,
+32,64,8,8,2,1,True,ok,True,
+32,64,8,8,2,2,True,ok,True,
+32,64,8,8,2,4,True,ok,True,
+32,64,8,8,2,8,True,ok,True,
+32,64,8,8,4,1,True,ok,True,
+32,64,8,8,4,2,True,ok,True,
+32,64,8,8,4,4,True,ok,True,
+32,64,8,8,4,8,True,ok,True,
+32,64,8,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,8,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,8,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,8,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,16,2,2,1,True,ok,True,
+32,64,16,2,2,2,True,ok,True,
+32,64,16,2,2,4,True,ok,True,
+32,64,16,2,2,8,True,ok,True,
+32,64,16,2,4,1,True,ok,True,
+32,64,16,2,4,2,True,ok,True,
+32,64,16,2,4,4,True,ok,True,
+32,64,16,2,4,8,True,ok,True,
+32,64,16,2,8,1,True,ok,True,
+32,64,16,2,8,2,True,ok,True,
+32,64,16,2,8,4,True,ok,True,
+32,64,16,2,8,8,True,ok,True,
+32,64,16,4,2,1,True,ok,True,
+32,64,16,4,2,2,True,ok,True,
+32,64,16,4,2,4,True,ok,True,
+32,64,16,4,2,8,True,ok,True,
+32,64,16,4,4,1,True,ok,True,
+32,64,16,4,4,2,True,ok,True,
+32,64,16,4,4,4,True,ok,True,
+32,64,16,4,4,8,True,ok,True,
+32,64,16,4,8,1,True,ok,True,
+32,64,16,4,8,2,True,ok,True,
+32,64,16,4,8,4,True,ok,True,
+32,64,16,4,8,8,True,ok,True,
+32,64,16,8,2,1,True,ok,True,
+32,64,16,8,2,2,True,ok,True,
+32,64,16,8,2,4,True,ok,True,
+32,64,16,8,2,8,True,ok,True,
+32,64,16,8,4,1,True,ok,True,
+32,64,16,8,4,2,True,ok,True,
+32,64,16,8,4,4,True,ok,True,
+32,64,16,8,4,8,True,ok,True,
+32,64,16,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,16,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,16,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,16,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,32,2,2,1,True,ok,True,
+32,64,32,2,2,2,True,ok,True,
+32,64,32,2,2,4,True,ok,True,
+32,64,32,2,2,8,True,ok,True,
+32,64,32,2,4,1,True,ok,True,
+32,64,32,2,4,2,True,ok,True,
+32,64,32,2,4,4,True,ok,True,
+32,64,32,2,4,8,True,ok,True,
+32,64,32,2,8,1,True,ok,True,
+32,64,32,2,8,2,True,ok,True,
+32,64,32,2,8,4,True,ok,True,
+32,64,32,2,8,8,True,ok,True,
+32,64,32,4,2,1,True,ok,True,
+32,64,32,4,2,2,True,ok,True,
+32,64,32,4,2,4,True,ok,True,
+32,64,32,4,2,8,True,ok,True,
+32,64,32,4,4,1,True,ok,True,
+32,64,32,4,4,2,True,ok,True,
+32,64,32,4,4,4,True,ok,True,
+32,64,32,4,4,8,True,ok,True,
+32,64,32,4,8,1,True,ok,True,
+32,64,32,4,8,2,True,ok,True,
+32,64,32,4,8,4,True,ok,True,
+32,64,32,4,8,8,True,ok,True,
+32,64,32,8,2,1,True,ok,True,
+32,64,32,8,2,2,True,ok,True,
+32,64,32,8,2,4,True,ok,True,
+32,64,32,8,2,8,True,ok,True,
+32,64,32,8,4,1,True,ok,True,
+32,64,32,8,4,2,True,ok,True,
+32,64,32,8,4,4,True,ok,True,
+32,64,32,8,4,8,True,ok,True,
+32,64,32,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,32,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,32,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,32,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,64,64,2,2,1,True,ok,True,
+32,64,64,2,2,2,True,ok,True,
+32,64,64,2,2,4,True,ok,True,
+32,64,64,2,2,8,True,ok,True,
+32,64,64,2,4,1,True,ok,True,
+32,64,64,2,4,2,True,ok,True,
+32,64,64,2,4,4,True,ok,True,
+32,64,64,2,4,8,True,ok,True,
+32,64,64,2,8,1,True,ok,True,
+32,64,64,2,8,2,True,ok,True,
+32,64,64,2,8,4,True,ok,True,
+32,64,64,2,8,8,True,ok,True,
+32,64,64,4,2,1,True,ok,True,
+32,64,64,4,2,2,True,ok,True,
+32,64,64,4,2,4,True,ok,True,
+32,64,64,4,2,8,True,ok,True,
+32,64,64,4,4,1,True,ok,True,
+32,64,64,4,4,2,True,ok,True,
+32,64,64,4,4,4,True,ok,True,
+32,64,64,4,4,8,True,ok,True,
+32,64,64,4,8,1,True,ok,True,
+32,64,64,4,8,2,True,ok,True,
+32,64,64,4,8,4,True,ok,True,
+32,64,64,4,8,8,True,ok,True,
+32,64,64,8,2,1,True,ok,True,
+32,64,64,8,2,2,True,ok,True,
+32,64,64,8,2,4,True,ok,True,
+32,64,64,8,2,8,True,ok,True,
+32,64,64,8,4,1,True,ok,True,
+32,64,64,8,4,2,True,ok,True,
+32,64,64,8,4,4,True,ok,True,
+32,64,64,8,4,8,True,ok,True,
+32,64,64,8,8,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,64,64,8,8,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,64,64,8,8,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,64,64,8,8,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+32,128,8,2,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,2,8,1,True,ok,True,
+32,128,8,2,8,2,True,ok,True,
+32,128,8,2,8,4,True,ok,True,
+32,128,8,2,8,8,True,ok,True,
+32,128,8,4,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,4,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,4,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,4,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,8,4,4,1,True,ok,True,
+32,128,8,4,4,2,True,ok,True,
+32,128,8,4,4,4,True,ok,True,
+32,128,8,4,4,8,True,ok,True,
+32,128,8,4,8,1,True,ok,True,
+32,128,8,4,8,2,True,ok,True,
+32,128,8,4,8,4,True,ok,True,
+32,128,8,4,8,8,True,ok,True,
+32,128,8,8,2,1,True,ok,True,
+32,128,8,8,2,2,True,ok,True,
+32,128,8,8,2,4,True,ok,True,
+32,128,8,8,2,8,True,ok,True,
+32,128,8,8,4,1,True,ok,True,
+32,128,8,8,4,2,True,ok,True,
+32,128,8,8,4,4,True,ok,True,
+32,128,8,8,4,8,True,ok,True,
+32,128,8,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,8,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,8,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,8,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,16,2,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,16,2,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,16,2,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,16,2,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,128,16,2,4,1,True,ok,True,
+32,128,16,2,4,2,True,ok,True,
+32,128,16,2,4,4,True,ok,True,
+32,128,16,2,4,8,True,ok,True,
+32,128,16,2,8,1,True,ok,True,
+32,128,16,2,8,2,True,ok,True,
+32,128,16,2,8,4,True,ok,True,
+32,128,16,2,8,8,True,ok,True,
+32,128,16,4,2,1,True,ok,True,
+32,128,16,4,2,2,True,ok,True,
+32,128,16,4,2,4,True,ok,True,
+32,128,16,4,2,8,True,ok,True,
+32,128,16,4,4,1,True,ok,True,
+32,128,16,4,4,2,True,ok,True,
+32,128,16,4,4,4,True,ok,True,
+32,128,16,4,4,8,True,ok,True,
+32,128,16,4,8,1,True,ok,True,
+32,128,16,4,8,2,True,ok,True,
+32,128,16,4,8,4,True,ok,True,
+32,128,16,4,8,8,True,ok,True,
+32,128,16,8,2,1,True,ok,True,
+32,128,16,8,2,2,True,ok,True,
+32,128,16,8,2,4,True,ok,True,
+32,128,16,8,2,8,True,ok,True,
+32,128,16,8,4,1,True,ok,True,
+32,128,16,8,4,2,True,ok,True,
+32,128,16,8,4,4,True,ok,True,
+32,128,16,8,4,8,True,ok,True,
+32,128,16,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,16,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,16,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,16,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,32,2,2,1,True,ok,True,
+32,128,32,2,2,2,True,ok,True,
+32,128,32,2,2,4,True,ok,True,
+32,128,32,2,2,8,True,ok,True,
+32,128,32,2,4,1,True,ok,True,
+32,128,32,2,4,2,True,ok,True,
+32,128,32,2,4,4,True,ok,True,
+32,128,32,2,4,8,True,ok,True,
+32,128,32,2,8,1,True,ok,True,
+32,128,32,2,8,2,True,ok,True,
+32,128,32,2,8,4,True,ok,True,
+32,128,32,2,8,8,True,ok,True,
+32,128,32,4,2,1,True,ok,True,
+32,128,32,4,2,2,True,ok,True,
+32,128,32,4,2,4,True,ok,True,
+32,128,32,4,2,8,True,ok,True,
+32,128,32,4,4,1,True,ok,True,
+32,128,32,4,4,2,True,ok,True,
+32,128,32,4,4,4,True,ok,True,
+32,128,32,4,4,8,True,ok,True,
+32,128,32,4,8,1,True,ok,True,
+32,128,32,4,8,2,True,ok,True,
+32,128,32,4,8,4,True,ok,True,
+32,128,32,4,8,8,True,ok,True,
+32,128,32,8,2,1,True,ok,True,
+32,128,32,8,2,2,True,ok,True,
+32,128,32,8,2,4,True,ok,True,
+32,128,32,8,2,8,True,ok,True,
+32,128,32,8,4,1,True,ok,True,
+32,128,32,8,4,2,True,ok,True,
+32,128,32,8,4,4,True,ok,True,
+32,128,32,8,4,8,True,ok,True,
+32,128,32,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,32,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,32,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,32,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,64,2,2,1,True,ok,True,
+32,128,64,2,2,2,True,ok,True,
+32,128,64,2,2,4,True,ok,True,
+32,128,64,2,2,8,True,ok,True,
+32,128,64,2,4,1,True,ok,True,
+32,128,64,2,4,2,True,ok,True,
+32,128,64,2,4,4,True,ok,True,
+32,128,64,2,4,8,True,ok,True,
+32,128,64,2,8,1,True,ok,True,
+32,128,64,2,8,2,True,ok,True,
+32,128,64,2,8,4,True,ok,True,
+32,128,64,2,8,8,True,ok,True,
+32,128,64,4,2,1,True,ok,True,
+32,128,64,4,2,2,True,ok,True,
+32,128,64,4,2,4,True,ok,True,
+32,128,64,4,2,8,True,ok,True,
+32,128,64,4,4,1,True,ok,True,
+32,128,64,4,4,2,True,ok,True,
+32,128,64,4,4,4,True,ok,True,
+32,128,64,4,4,8,True,ok,True,
+32,128,64,4,8,1,True,ok,True,
+32,128,64,4,8,2,True,ok,True,
+32,128,64,4,8,4,True,ok,True,
+32,128,64,4,8,8,True,ok,True,
+32,128,64,8,2,1,True,ok,True,
+32,128,64,8,2,2,True,ok,True,
+32,128,64,8,2,4,True,ok,True,
+32,128,64,8,2,8,True,ok,True,
+32,128,64,8,4,1,True,ok,True,
+32,128,64,8,4,2,True,ok,True,
+32,128,64,8,4,4,True,ok,True,
+32,128,64,8,4,8,True,ok,True,
+32,128,64,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,64,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,64,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,128,64,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,8,2,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,8,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,8,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,8,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,2,8,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,4,8,1,True,ok,True,
+32,256,8,4,8,2,True,ok,True,
+32,256,8,4,8,4,True,ok,True,
+32,256,8,4,8,8,True,ok,True,
+32,256,8,8,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,8,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,8,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,8,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,8,8,4,1,True,ok,True,
+32,256,8,8,4,2,True,ok,True,
+32,256,8,8,4,4,True,ok,True,
+32,256,8,8,4,8,True,ok,True,
+32,256,8,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,8,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,8,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,8,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,16,2,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,2,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,2,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,2,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,2,8,1,True,ok,True,
+32,256,16,2,8,2,True,ok,True,
+32,256,16,2,8,4,True,ok,True,
+32,256,16,2,8,8,True,ok,True,
+32,256,16,4,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,4,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,4,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,4,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+32,256,16,4,4,1,True,ok,True,
+32,256,16,4,4,2,True,ok,True,
+32,256,16,4,4,4,True,ok,True,
+32,256,16,4,4,8,True,ok,True,
+32,256,16,4,8,1,True,ok,True,
+32,256,16,4,8,2,True,ok,True,
+32,256,16,4,8,4,True,ok,True,
+32,256,16,4,8,8,True,ok,True,
+32,256,16,8,2,1,True,ok,True,
+32,256,16,8,2,2,True,ok,True,
+32,256,16,8,2,4,True,ok,True,
+32,256,16,8,2,8,True,ok,True,
+32,256,16,8,4,1,True,ok,True,
+32,256,16,8,4,2,True,ok,True,
+32,256,16,8,4,4,True,ok,True,
+32,256,16,8,4,8,True,ok,True,
+32,256,16,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,16,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,16,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,16,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,32,2,4,1,True,ok,True,
+32,256,32,2,4,2,True,ok,True,
+32,256,32,2,4,4,True,ok,True,
+32,256,32,2,4,8,True,ok,True,
+32,256,32,2,8,1,True,ok,True,
+32,256,32,2,8,2,True,ok,True,
+32,256,32,2,8,4,True,ok,True,
+32,256,32,2,8,8,True,ok,True,
+32,256,32,4,2,1,True,ok,True,
+32,256,32,4,2,2,True,ok,True,
+32,256,32,4,2,4,True,ok,True,
+32,256,32,4,2,8,True,ok,True,
+32,256,32,4,4,1,True,ok,True,
+32,256,32,4,4,2,True,ok,True,
+32,256,32,4,4,4,True,ok,True,
+32,256,32,4,4,8,True,ok,True,
+32,256,32,4,8,1,True,ok,True,
+32,256,32,4,8,2,True,ok,True,
+32,256,32,4,8,4,True,ok,True,
+32,256,32,4,8,8,True,ok,True,
+32,256,32,8,2,1,True,ok,True,
+32,256,32,8,2,2,True,ok,True,
+32,256,32,8,2,4,True,ok,True,
+32,256,32,8,2,8,True,ok,True,
+32,256,32,8,4,1,True,ok,True,
+32,256,32,8,4,2,True,ok,True,
+32,256,32,8,4,4,True,ok,True,
+32,256,32,8,4,8,True,ok,True,
+32,256,32,8,8,1,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,32,8,8,2,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,32,8,8,4,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,32,8,8,8,False,B_load_stride_not_integer,False,B-tile load stride must be an integer
+32,256,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+32,256,64,2,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,2,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+32,256,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,32,8,2,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+64,32,8,2,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+64,32,8,2,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+64,32,8,2,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+64,32,8,2,4,1,True,ok,True,
+64,32,8,2,4,2,True,ok,True,
+64,32,8,2,4,4,True,ok,True,
+64,32,8,2,4,8,True,ok,True,
+64,32,8,2,8,1,True,ok,True,
+64,32,8,2,8,2,True,ok,True,
+64,32,8,2,8,4,True,ok,True,
+64,32,8,2,8,8,True,ok,True,
+64,32,8,4,2,1,True,ok,True,
+64,32,8,4,2,2,True,ok,True,
+64,32,8,4,2,4,True,ok,True,
+64,32,8,4,2,8,True,ok,True,
+64,32,8,4,4,1,True,ok,True,
+64,32,8,4,4,2,True,ok,True,
+64,32,8,4,4,4,True,ok,True,
+64,32,8,4,4,8,True,ok,True,
+64,32,8,4,8,1,True,ok,True,
+64,32,8,4,8,2,True,ok,True,
+64,32,8,4,8,4,True,ok,True,
+64,32,8,4,8,8,True,ok,True,
+64,32,8,8,2,1,True,ok,True,
+64,32,8,8,2,2,True,ok,True,
+64,32,8,8,2,4,True,ok,True,
+64,32,8,8,2,8,True,ok,True,
+64,32,8,8,4,1,True,ok,True,
+64,32,8,8,4,2,True,ok,True,
+64,32,8,8,4,4,True,ok,True,
+64,32,8,8,4,8,True,ok,True,
+64,32,8,8,8,1,True,ok,True,
+64,32,8,8,8,2,True,ok,True,
+64,32,8,8,8,4,True,ok,True,
+64,32,8,8,8,8,True,ok,True,
+64,32,16,2,2,1,True,ok,True,
+64,32,16,2,2,2,True,ok,True,
+64,32,16,2,2,4,True,ok,True,
+64,32,16,2,2,8,True,ok,True,
+64,32,16,2,4,1,True,ok,True,
+64,32,16,2,4,2,True,ok,True,
+64,32,16,2,4,4,True,ok,True,
+64,32,16,2,4,8,True,ok,True,
+64,32,16,2,8,1,True,ok,True,
+64,32,16,2,8,2,True,ok,True,
+64,32,16,2,8,4,True,ok,True,
+64,32,16,2,8,8,True,ok,True,
+64,32,16,4,2,1,True,ok,True,
+64,32,16,4,2,2,True,ok,True,
+64,32,16,4,2,4,True,ok,True,
+64,32,16,4,2,8,True,ok,True,
+64,32,16,4,4,1,True,ok,True,
+64,32,16,4,4,2,True,ok,True,
+64,32,16,4,4,4,True,ok,True,
+64,32,16,4,4,8,True,ok,True,
+64,32,16,4,8,1,True,ok,True,
+64,32,16,4,8,2,True,ok,True,
+64,32,16,4,8,4,True,ok,True,
+64,32,16,4,8,8,True,ok,True,
+64,32,16,8,2,1,True,ok,True,
+64,32,16,8,2,2,True,ok,True,
+64,32,16,8,2,4,True,ok,True,
+64,32,16,8,2,8,True,ok,True,
+64,32,16,8,4,1,True,ok,True,
+64,32,16,8,4,2,True,ok,True,
+64,32,16,8,4,4,True,ok,True,
+64,32,16,8,4,8,True,ok,True,
+64,32,16,8,8,1,True,ok,True,
+64,32,16,8,8,2,True,ok,True,
+64,32,16,8,8,4,True,ok,True,
+64,32,16,8,8,8,True,ok,True,
+64,32,32,2,2,1,True,ok,True,
+64,32,32,2,2,2,True,ok,True,
+64,32,32,2,2,4,True,ok,True,
+64,32,32,2,2,8,True,ok,True,
+64,32,32,2,4,1,True,ok,True,
+64,32,32,2,4,2,True,ok,True,
+64,32,32,2,4,4,True,ok,True,
+64,32,32,2,4,8,True,ok,True,
+64,32,32,2,8,1,True,ok,True,
+64,32,32,2,8,2,True,ok,True,
+64,32,32,2,8,4,True,ok,True,
+64,32,32,2,8,8,True,ok,True,
+64,32,32,4,2,1,True,ok,True,
+64,32,32,4,2,2,True,ok,True,
+64,32,32,4,2,4,True,ok,True,
+64,32,32,4,2,8,True,ok,True,
+64,32,32,4,4,1,True,ok,True,
+64,32,32,4,4,2,True,ok,True,
+64,32,32,4,4,4,True,ok,True,
+64,32,32,4,4,8,True,ok,True,
+64,32,32,4,8,1,True,ok,True,
+64,32,32,4,8,2,True,ok,True,
+64,32,32,4,8,4,True,ok,True,
+64,32,32,4,8,8,True,ok,True,
+64,32,32,8,2,1,True,ok,True,
+64,32,32,8,2,2,True,ok,True,
+64,32,32,8,2,4,True,ok,True,
+64,32,32,8,2,8,True,ok,True,
+64,32,32,8,4,1,True,ok,True,
+64,32,32,8,4,2,True,ok,True,
+64,32,32,8,4,4,True,ok,True,
+64,32,32,8,4,8,True,ok,True,
+64,32,32,8,8,1,True,ok,True,
+64,32,32,8,8,2,True,ok,True,
+64,32,32,8,8,4,True,ok,True,
+64,32,32,8,8,8,True,ok,True,
+64,32,64,2,2,1,True,ok,True,
+64,32,64,2,2,2,True,ok,True,
+64,32,64,2,2,4,True,ok,True,
+64,32,64,2,2,8,True,ok,True,
+64,32,64,2,4,1,True,ok,True,
+64,32,64,2,4,2,True,ok,True,
+64,32,64,2,4,4,True,ok,True,
+64,32,64,2,4,8,True,ok,True,
+64,32,64,2,8,1,True,ok,True,
+64,32,64,2,8,2,True,ok,True,
+64,32,64,2,8,4,True,ok,True,
+64,32,64,2,8,8,True,ok,True,
+64,32,64,4,2,1,True,ok,True,
+64,32,64,4,2,2,True,ok,True,
+64,32,64,4,2,4,True,ok,True,
+64,32,64,4,2,8,True,ok,True,
+64,32,64,4,4,1,True,ok,True,
+64,32,64,4,4,2,True,ok,True,
+64,32,64,4,4,4,True,ok,True,
+64,32,64,4,4,8,True,ok,True,
+64,32,64,4,8,1,True,ok,True,
+64,32,64,4,8,2,True,ok,True,
+64,32,64,4,8,4,True,ok,True,
+64,32,64,4,8,8,True,ok,True,
+64,32,64,8,2,1,True,ok,True,
+64,32,64,8,2,2,True,ok,True,
+64,32,64,8,2,4,True,ok,True,
+64,32,64,8,2,8,True,ok,True,
+64,32,64,8,4,1,True,ok,True,
+64,32,64,8,4,2,True,ok,True,
+64,32,64,8,4,4,True,ok,True,
+64,32,64,8,4,8,True,ok,True,
+64,32,64,8,8,1,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+64,32,64,8,8,2,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+64,32,64,8,8,4,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+64,32,64,8,8,8,False,A_load_stride_not_integer,False,A-tile load stride must be an integer
+64,64,8,2,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,64,8,2,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,64,8,2,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,64,8,2,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,64,8,2,4,1,True,ok,True,
+64,64,8,2,4,2,True,ok,True,
+64,64,8,2,4,4,True,ok,True,
+64,64,8,2,4,8,True,ok,True,
+64,64,8,2,8,1,True,ok,True,
+64,64,8,2,8,2,True,ok,True,
+64,64,8,2,8,4,True,ok,True,
+64,64,8,2,8,8,True,ok,True,
+64,64,8,4,2,1,True,ok,True,
+64,64,8,4,2,2,True,ok,True,
+64,64,8,4,2,4,True,ok,True,
+64,64,8,4,2,8,True,ok,True,
+64,64,8,4,4,1,True,ok,True,
+64,64,8,4,4,2,True,ok,True,
+64,64,8,4,4,4,True,ok,True,
+64,64,8,4,4,8,True,ok,True,
+64,64,8,4,8,1,True,ok,True,
+64,64,8,4,8,2,True,ok,True,
+64,64,8,4,8,4,True,ok,True,
+64,64,8,4,8,8,True,ok,True,
+64,64,8,8,2,1,True,ok,True,
+64,64,8,8,2,2,True,ok,True,
+64,64,8,8,2,4,True,ok,True,
+64,64,8,8,2,8,True,ok,True,
+64,64,8,8,4,1,True,ok,True,
+64,64,8,8,4,2,True,ok,True,
+64,64,8,8,4,4,True,ok,True,
+64,64,8,8,4,8,True,ok,True,
+64,64,8,8,8,1,True,ok,True,
+64,64,8,8,8,2,True,ok,True,
+64,64,8,8,8,4,True,ok,True,
+64,64,8,8,8,8,True,ok,True,
+64,64,16,2,2,1,True,ok,True,
+64,64,16,2,2,2,True,ok,True,
+64,64,16,2,2,4,True,ok,True,
+64,64,16,2,2,8,True,ok,True,
+64,64,16,2,4,1,True,ok,True,
+64,64,16,2,4,2,True,ok,True,
+64,64,16,2,4,4,True,ok,True,
+64,64,16,2,4,8,True,ok,True,
+64,64,16,2,8,1,True,ok,True,
+64,64,16,2,8,2,True,ok,True,
+64,64,16,2,8,4,True,ok,True,
+64,64,16,2,8,8,True,ok,True,
+64,64,16,4,2,1,True,ok,True,
+64,64,16,4,2,2,True,ok,True,
+64,64,16,4,2,4,True,ok,True,
+64,64,16,4,2,8,True,ok,True,
+64,64,16,4,4,1,True,ok,True,
+64,64,16,4,4,2,True,ok,True,
+64,64,16,4,4,4,True,ok,True,
+64,64,16,4,4,8,True,ok,True,
+64,64,16,4,8,1,True,ok,True,
+64,64,16,4,8,2,True,ok,True,
+64,64,16,4,8,4,True,ok,True,
+64,64,16,4,8,8,True,ok,True,
+64,64,16,8,2,1,True,ok,True,
+64,64,16,8,2,2,True,ok,True,
+64,64,16,8,2,4,True,ok,True,
+64,64,16,8,2,8,True,ok,True,
+64,64,16,8,4,1,True,ok,True,
+64,64,16,8,4,2,True,ok,True,
+64,64,16,8,4,4,True,ok,True,
+64,64,16,8,4,8,True,ok,True,
+64,64,16,8,8,1,True,ok,True,
+64,64,16,8,8,2,True,ok,True,
+64,64,16,8,8,4,True,ok,True,
+64,64,16,8,8,8,True,ok,True,
+64,64,32,2,2,1,True,ok,True,
+64,64,32,2,2,2,True,ok,True,
+64,64,32,2,2,4,True,ok,True,
+64,64,32,2,2,8,True,ok,True,
+64,64,32,2,4,1,True,ok,True,
+64,64,32,2,4,2,True,ok,True,
+64,64,32,2,4,4,True,ok,True,
+64,64,32,2,4,8,True,ok,True,
+64,64,32,2,8,1,True,ok,True,
+64,64,32,2,8,2,True,ok,True,
+64,64,32,2,8,4,True,ok,True,
+64,64,32,2,8,8,True,ok,True,
+64,64,32,4,2,1,True,ok,True,
+64,64,32,4,2,2,True,ok,True,
+64,64,32,4,2,4,True,ok,True,
+64,64,32,4,2,8,True,ok,True,
+64,64,32,4,4,1,True,ok,True,
+64,64,32,4,4,2,True,ok,True,
+64,64,32,4,4,4,True,ok,True,
+64,64,32,4,4,8,True,ok,True,
+64,64,32,4,8,1,True,ok,True,
+64,64,32,4,8,2,True,ok,True,
+64,64,32,4,8,4,True,ok,True,
+64,64,32,4,8,8,True,ok,True,
+64,64,32,8,2,1,True,ok,True,
+64,64,32,8,2,2,True,ok,True,
+64,64,32,8,2,4,True,ok,True,
+64,64,32,8,2,8,True,ok,True,
+64,64,32,8,4,1,True,ok,True,
+64,64,32,8,4,2,True,ok,True,
+64,64,32,8,4,4,True,ok,True,
+64,64,32,8,4,8,True,ok,True,
+64,64,32,8,8,1,True,ok,True,
+64,64,32,8,8,2,True,ok,True,
+64,64,32,8,8,4,True,ok,True,
+64,64,32,8,8,8,True,ok,True,
+64,64,64,2,2,1,True,ok,True,
+64,64,64,2,2,2,True,ok,True,
+64,64,64,2,2,4,True,ok,True,
+64,64,64,2,2,8,True,ok,True,
+64,64,64,2,4,1,True,ok,True,
+64,64,64,2,4,2,True,ok,True,
+64,64,64,2,4,4,True,ok,True,
+64,64,64,2,4,8,True,ok,True,
+64,64,64,2,8,1,True,ok,True,
+64,64,64,2,8,2,True,ok,True,
+64,64,64,2,8,4,True,ok,True,
+64,64,64,2,8,8,True,ok,True,
+64,64,64,4,2,1,True,ok,True,
+64,64,64,4,2,2,True,ok,True,
+64,64,64,4,2,4,True,ok,True,
+64,64,64,4,2,8,True,ok,True,
+64,64,64,4,4,1,True,ok,True,
+64,64,64,4,4,2,True,ok,True,
+64,64,64,4,4,4,True,ok,True,
+64,64,64,4,4,8,True,ok,True,
+64,64,64,4,8,1,True,ok,True,
+64,64,64,4,8,2,True,ok,True,
+64,64,64,4,8,4,True,ok,True,
+64,64,64,4,8,8,True,ok,True,
+64,64,64,8,2,1,True,ok,True,
+64,64,64,8,2,2,True,ok,True,
+64,64,64,8,2,4,True,ok,True,
+64,64,64,8,2,8,True,ok,True,
+64,64,64,8,4,1,True,ok,True,
+64,64,64,8,4,2,True,ok,True,
+64,64,64,8,4,4,True,ok,True,
+64,64,64,8,4,8,True,ok,True,
+64,64,64,8,8,1,True,ok,True,
+64,64,64,8,8,2,True,ok,True,
+64,64,64,8,8,4,True,ok,True,
+64,64,64,8,8,8,True,ok,True,
+64,128,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,8,2,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,2,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,2,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,2,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,2,8,1,True,ok,True,
+64,128,8,2,8,2,True,ok,True,
+64,128,8,2,8,4,True,ok,True,
+64,128,8,2,8,8,True,ok,True,
+64,128,8,4,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,4,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,4,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,4,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,128,8,4,4,1,True,ok,True,
+64,128,8,4,4,2,True,ok,True,
+64,128,8,4,4,4,True,ok,True,
+64,128,8,4,4,8,True,ok,True,
+64,128,8,4,8,1,True,ok,True,
+64,128,8,4,8,2,True,ok,True,
+64,128,8,4,8,4,True,ok,True,
+64,128,8,4,8,8,True,ok,True,
+64,128,8,8,2,1,True,ok,True,
+64,128,8,8,2,2,True,ok,True,
+64,128,8,8,2,4,True,ok,True,
+64,128,8,8,2,8,True,ok,True,
+64,128,8,8,4,1,True,ok,True,
+64,128,8,8,4,2,True,ok,True,
+64,128,8,8,4,4,True,ok,True,
+64,128,8,8,4,8,True,ok,True,
+64,128,8,8,8,1,True,ok,True,
+64,128,8,8,8,2,True,ok,True,
+64,128,8,8,8,4,True,ok,True,
+64,128,8,8,8,8,True,ok,True,
+64,128,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,16,2,4,1,True,ok,True,
+64,128,16,2,4,2,True,ok,True,
+64,128,16,2,4,4,True,ok,True,
+64,128,16,2,4,8,True,ok,True,
+64,128,16,2,8,1,True,ok,True,
+64,128,16,2,8,2,True,ok,True,
+64,128,16,2,8,4,True,ok,True,
+64,128,16,2,8,8,True,ok,True,
+64,128,16,4,2,1,True,ok,True,
+64,128,16,4,2,2,True,ok,True,
+64,128,16,4,2,4,True,ok,True,
+64,128,16,4,2,8,True,ok,True,
+64,128,16,4,4,1,True,ok,True,
+64,128,16,4,4,2,True,ok,True,
+64,128,16,4,4,4,True,ok,True,
+64,128,16,4,4,8,True,ok,True,
+64,128,16,4,8,1,True,ok,True,
+64,128,16,4,8,2,True,ok,True,
+64,128,16,4,8,4,True,ok,True,
+64,128,16,4,8,8,True,ok,True,
+64,128,16,8,2,1,True,ok,True,
+64,128,16,8,2,2,True,ok,True,
+64,128,16,8,2,4,True,ok,True,
+64,128,16,8,2,8,True,ok,True,
+64,128,16,8,4,1,True,ok,True,
+64,128,16,8,4,2,True,ok,True,
+64,128,16,8,4,4,True,ok,True,
+64,128,16,8,4,8,True,ok,True,
+64,128,16,8,8,1,True,ok,True,
+64,128,16,8,8,2,True,ok,True,
+64,128,16,8,8,4,True,ok,True,
+64,128,16,8,8,8,True,ok,True,
+64,128,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,32,2,4,1,True,ok,True,
+64,128,32,2,4,2,True,ok,True,
+64,128,32,2,4,4,True,ok,True,
+64,128,32,2,4,8,True,ok,True,
+64,128,32,2,8,1,True,ok,True,
+64,128,32,2,8,2,True,ok,True,
+64,128,32,2,8,4,True,ok,True,
+64,128,32,2,8,8,True,ok,True,
+64,128,32,4,2,1,True,ok,True,
+64,128,32,4,2,2,True,ok,True,
+64,128,32,4,2,4,True,ok,True,
+64,128,32,4,2,8,True,ok,True,
+64,128,32,4,4,1,True,ok,True,
+64,128,32,4,4,2,True,ok,True,
+64,128,32,4,4,4,True,ok,True,
+64,128,32,4,4,8,True,ok,True,
+64,128,32,4,8,1,True,ok,True,
+64,128,32,4,8,2,True,ok,True,
+64,128,32,4,8,4,True,ok,True,
+64,128,32,4,8,8,True,ok,True,
+64,128,32,8,2,1,True,ok,True,
+64,128,32,8,2,2,True,ok,True,
+64,128,32,8,2,4,True,ok,True,
+64,128,32,8,2,8,True,ok,True,
+64,128,32,8,4,1,True,ok,True,
+64,128,32,8,4,2,True,ok,True,
+64,128,32,8,4,4,True,ok,True,
+64,128,32,8,4,8,True,ok,True,
+64,128,32,8,8,1,True,ok,True,
+64,128,32,8,8,2,True,ok,True,
+64,128,32,8,8,4,True,ok,True,
+64,128,32,8,8,8,True,ok,True,
+64,128,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,128,64,2,4,1,True,ok,True,
+64,128,64,2,4,2,True,ok,True,
+64,128,64,2,4,4,True,ok,True,
+64,128,64,2,4,8,True,ok,True,
+64,128,64,2,8,1,True,ok,True,
+64,128,64,2,8,2,True,ok,True,
+64,128,64,2,8,4,True,ok,True,
+64,128,64,2,8,8,True,ok,True,
+64,128,64,4,2,1,True,ok,True,
+64,128,64,4,2,2,True,ok,True,
+64,128,64,4,2,4,True,ok,True,
+64,128,64,4,2,8,True,ok,True,
+64,128,64,4,4,1,True,ok,True,
+64,128,64,4,4,2,True,ok,True,
+64,128,64,4,4,4,True,ok,True,
+64,128,64,4,4,8,True,ok,True,
+64,128,64,4,8,1,True,ok,True,
+64,128,64,4,8,2,True,ok,True,
+64,128,64,4,8,4,True,ok,True,
+64,128,64,4,8,8,True,ok,True,
+64,128,64,8,2,1,True,ok,True,
+64,128,64,8,2,2,True,ok,True,
+64,128,64,8,2,4,True,ok,True,
+64,128,64,8,2,8,True,ok,True,
+64,128,64,8,4,1,True,ok,True,
+64,128,64,8,4,2,True,ok,True,
+64,128,64,8,4,4,True,ok,True,
+64,128,64,8,4,8,True,ok,True,
+64,128,64,8,8,1,True,ok,True,
+64,128,64,8,8,2,True,ok,True,
+64,128,64,8,8,4,True,ok,True,
+64,128,64,8,8,8,True,ok,True,
+64,256,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,2,8,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,2,8,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,2,8,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,2,8,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,8,4,4,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,4,4,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,4,4,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,4,4,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,4,8,1,True,ok,True,
+64,256,8,4,8,2,True,ok,True,
+64,256,8,4,8,4,True,ok,True,
+64,256,8,4,8,8,True,ok,True,
+64,256,8,8,2,1,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,8,2,2,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,8,2,4,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,8,2,8,False,A_tile_load_overflow,False,A-tile load overflow: threads > BM*BK
+64,256,8,8,4,1,True,ok,True,
+64,256,8,8,4,2,True,ok,True,
+64,256,8,8,4,4,True,ok,True,
+64,256,8,8,4,8,True,ok,True,
+64,256,8,8,8,1,True,ok,True,
+64,256,8,8,8,2,True,ok,True,
+64,256,8,8,8,4,True,ok,True,
+64,256,8,8,8,8,True,ok,True,
+64,256,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,2,8,1,True,ok,True,
+64,256,16,2,8,2,True,ok,True,
+64,256,16,2,8,4,True,ok,True,
+64,256,16,2,8,8,True,ok,True,
+64,256,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,16,4,4,1,True,ok,True,
+64,256,16,4,4,2,True,ok,True,
+64,256,16,4,4,4,True,ok,True,
+64,256,16,4,4,8,True,ok,True,
+64,256,16,4,8,1,True,ok,True,
+64,256,16,4,8,2,True,ok,True,
+64,256,16,4,8,4,True,ok,True,
+64,256,16,4,8,8,True,ok,True,
+64,256,16,8,2,1,True,ok,True,
+64,256,16,8,2,2,True,ok,True,
+64,256,16,8,2,4,True,ok,True,
+64,256,16,8,2,8,True,ok,True,
+64,256,16,8,4,1,True,ok,True,
+64,256,16,8,4,2,True,ok,True,
+64,256,16,8,4,4,True,ok,True,
+64,256,16,8,4,8,True,ok,True,
+64,256,16,8,8,1,True,ok,True,
+64,256,16,8,8,2,True,ok,True,
+64,256,16,8,8,4,True,ok,True,
+64,256,16,8,8,8,True,ok,True,
+64,256,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,2,8,1,True,ok,True,
+64,256,32,2,8,2,True,ok,True,
+64,256,32,2,8,4,True,ok,True,
+64,256,32,2,8,8,True,ok,True,
+64,256,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,32,4,4,1,True,ok,True,
+64,256,32,4,4,2,True,ok,True,
+64,256,32,4,4,4,True,ok,True,
+64,256,32,4,4,8,True,ok,True,
+64,256,32,4,8,1,True,ok,True,
+64,256,32,4,8,2,True,ok,True,
+64,256,32,4,8,4,True,ok,True,
+64,256,32,4,8,8,True,ok,True,
+64,256,32,8,2,1,True,ok,True,
+64,256,32,8,2,2,True,ok,True,
+64,256,32,8,2,4,True,ok,True,
+64,256,32,8,2,8,True,ok,True,
+64,256,32,8,4,1,True,ok,True,
+64,256,32,8,4,2,True,ok,True,
+64,256,32,8,4,4,True,ok,True,
+64,256,32,8,4,8,True,ok,True,
+64,256,32,8,8,1,True,ok,True,
+64,256,32,8,8,2,True,ok,True,
+64,256,32,8,8,4,True,ok,True,
+64,256,32,8,8,8,True,ok,True,
+64,256,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,2,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,2,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,2,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,2,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+64,256,64,4,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+64,256,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,32,8,2,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,2,8,1,True,ok,True,
+128,32,8,2,8,2,True,ok,True,
+128,32,8,2,8,4,True,ok,True,
+128,32,8,2,8,8,True,ok,True,
+128,32,8,4,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,4,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,4,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,4,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,8,4,4,1,True,ok,True,
+128,32,8,4,4,2,True,ok,True,
+128,32,8,4,4,4,True,ok,True,
+128,32,8,4,4,8,True,ok,True,
+128,32,8,4,8,1,True,ok,True,
+128,32,8,4,8,2,True,ok,True,
+128,32,8,4,8,4,True,ok,True,
+128,32,8,4,8,8,True,ok,True,
+128,32,8,8,2,1,True,ok,True,
+128,32,8,8,2,2,True,ok,True,
+128,32,8,8,2,4,True,ok,True,
+128,32,8,8,2,8,True,ok,True,
+128,32,8,8,4,1,True,ok,True,
+128,32,8,8,4,2,True,ok,True,
+128,32,8,8,4,4,True,ok,True,
+128,32,8,8,4,8,True,ok,True,
+128,32,8,8,8,1,True,ok,True,
+128,32,8,8,8,2,True,ok,True,
+128,32,8,8,8,4,True,ok,True,
+128,32,8,8,8,8,True,ok,True,
+128,32,16,2,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,16,2,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,16,2,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,16,2,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,32,16,2,4,1,True,ok,True,
+128,32,16,2,4,2,True,ok,True,
+128,32,16,2,4,4,True,ok,True,
+128,32,16,2,4,8,True,ok,True,
+128,32,16,2,8,1,True,ok,True,
+128,32,16,2,8,2,True,ok,True,
+128,32,16,2,8,4,True,ok,True,
+128,32,16,2,8,8,True,ok,True,
+128,32,16,4,2,1,True,ok,True,
+128,32,16,4,2,2,True,ok,True,
+128,32,16,4,2,4,True,ok,True,
+128,32,16,4,2,8,True,ok,True,
+128,32,16,4,4,1,True,ok,True,
+128,32,16,4,4,2,True,ok,True,
+128,32,16,4,4,4,True,ok,True,
+128,32,16,4,4,8,True,ok,True,
+128,32,16,4,8,1,True,ok,True,
+128,32,16,4,8,2,True,ok,True,
+128,32,16,4,8,4,True,ok,True,
+128,32,16,4,8,8,True,ok,True,
+128,32,16,8,2,1,True,ok,True,
+128,32,16,8,2,2,True,ok,True,
+128,32,16,8,2,4,True,ok,True,
+128,32,16,8,2,8,True,ok,True,
+128,32,16,8,4,1,True,ok,True,
+128,32,16,8,4,2,True,ok,True,
+128,32,16,8,4,4,True,ok,True,
+128,32,16,8,4,8,True,ok,True,
+128,32,16,8,8,1,True,ok,True,
+128,32,16,8,8,2,True,ok,True,
+128,32,16,8,8,4,True,ok,True,
+128,32,16,8,8,8,True,ok,True,
+128,32,32,2,2,1,True,ok,True,
+128,32,32,2,2,2,True,ok,True,
+128,32,32,2,2,4,True,ok,True,
+128,32,32,2,2,8,True,ok,True,
+128,32,32,2,4,1,True,ok,True,
+128,32,32,2,4,2,True,ok,True,
+128,32,32,2,4,4,True,ok,True,
+128,32,32,2,4,8,True,ok,True,
+128,32,32,2,8,1,True,ok,True,
+128,32,32,2,8,2,True,ok,True,
+128,32,32,2,8,4,True,ok,True,
+128,32,32,2,8,8,True,ok,True,
+128,32,32,4,2,1,True,ok,True,
+128,32,32,4,2,2,True,ok,True,
+128,32,32,4,2,4,True,ok,True,
+128,32,32,4,2,8,True,ok,True,
+128,32,32,4,4,1,True,ok,True,
+128,32,32,4,4,2,True,ok,True,
+128,32,32,4,4,4,True,ok,True,
+128,32,32,4,4,8,True,ok,True,
+128,32,32,4,8,1,True,ok,True,
+128,32,32,4,8,2,True,ok,True,
+128,32,32,4,8,4,True,ok,True,
+128,32,32,4,8,8,True,ok,True,
+128,32,32,8,2,1,True,ok,True,
+128,32,32,8,2,2,True,ok,True,
+128,32,32,8,2,4,True,ok,True,
+128,32,32,8,2,8,True,ok,True,
+128,32,32,8,4,1,True,ok,True,
+128,32,32,8,4,2,True,ok,True,
+128,32,32,8,4,4,True,ok,True,
+128,32,32,8,4,8,True,ok,True,
+128,32,32,8,8,1,True,ok,True,
+128,32,32,8,8,2,True,ok,True,
+128,32,32,8,8,4,True,ok,True,
+128,32,32,8,8,8,True,ok,True,
+128,32,64,2,2,1,True,ok,True,
+128,32,64,2,2,2,True,ok,True,
+128,32,64,2,2,4,True,ok,True,
+128,32,64,2,2,8,True,ok,True,
+128,32,64,2,4,1,True,ok,True,
+128,32,64,2,4,2,True,ok,True,
+128,32,64,2,4,4,True,ok,True,
+128,32,64,2,4,8,True,ok,True,
+128,32,64,2,8,1,True,ok,True,
+128,32,64,2,8,2,True,ok,True,
+128,32,64,2,8,4,True,ok,True,
+128,32,64,2,8,8,True,ok,True,
+128,32,64,4,2,1,True,ok,True,
+128,32,64,4,2,2,True,ok,True,
+128,32,64,4,2,4,True,ok,True,
+128,32,64,4,2,8,True,ok,True,
+128,32,64,4,4,1,True,ok,True,
+128,32,64,4,4,2,True,ok,True,
+128,32,64,4,4,4,True,ok,True,
+128,32,64,4,4,8,True,ok,True,
+128,32,64,4,8,1,True,ok,True,
+128,32,64,4,8,2,True,ok,True,
+128,32,64,4,8,4,True,ok,True,
+128,32,64,4,8,8,True,ok,True,
+128,32,64,8,2,1,True,ok,True,
+128,32,64,8,2,2,True,ok,True,
+128,32,64,8,2,4,True,ok,True,
+128,32,64,8,2,8,True,ok,True,
+128,32,64,8,4,1,True,ok,True,
+128,32,64,8,4,2,True,ok,True,
+128,32,64,8,4,4,True,ok,True,
+128,32,64,8,4,8,True,ok,True,
+128,32,64,8,8,1,True,ok,True,
+128,32,64,8,8,2,True,ok,True,
+128,32,64,8,8,4,True,ok,True,
+128,32,64,8,8,8,True,ok,True,
+128,64,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,8,2,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,2,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,2,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,2,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,2,8,1,True,ok,True,
+128,64,8,2,8,2,True,ok,True,
+128,64,8,2,8,4,True,ok,True,
+128,64,8,2,8,8,True,ok,True,
+128,64,8,4,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,4,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,4,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,4,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+128,64,8,4,4,1,True,ok,True,
+128,64,8,4,4,2,True,ok,True,
+128,64,8,4,4,4,True,ok,True,
+128,64,8,4,4,8,True,ok,True,
+128,64,8,4,8,1,True,ok,True,
+128,64,8,4,8,2,True,ok,True,
+128,64,8,4,8,4,True,ok,True,
+128,64,8,4,8,8,True,ok,True,
+128,64,8,8,2,1,True,ok,True,
+128,64,8,8,2,2,True,ok,True,
+128,64,8,8,2,4,True,ok,True,
+128,64,8,8,2,8,True,ok,True,
+128,64,8,8,4,1,True,ok,True,
+128,64,8,8,4,2,True,ok,True,
+128,64,8,8,4,4,True,ok,True,
+128,64,8,8,4,8,True,ok,True,
+128,64,8,8,8,1,True,ok,True,
+128,64,8,8,8,2,True,ok,True,
+128,64,8,8,8,4,True,ok,True,
+128,64,8,8,8,8,True,ok,True,
+128,64,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,16,2,4,1,True,ok,True,
+128,64,16,2,4,2,True,ok,True,
+128,64,16,2,4,4,True,ok,True,
+128,64,16,2,4,8,True,ok,True,
+128,64,16,2,8,1,True,ok,True,
+128,64,16,2,8,2,True,ok,True,
+128,64,16,2,8,4,True,ok,True,
+128,64,16,2,8,8,True,ok,True,
+128,64,16,4,2,1,True,ok,True,
+128,64,16,4,2,2,True,ok,True,
+128,64,16,4,2,4,True,ok,True,
+128,64,16,4,2,8,True,ok,True,
+128,64,16,4,4,1,True,ok,True,
+128,64,16,4,4,2,True,ok,True,
+128,64,16,4,4,4,True,ok,True,
+128,64,16,4,4,8,True,ok,True,
+128,64,16,4,8,1,True,ok,True,
+128,64,16,4,8,2,True,ok,True,
+128,64,16,4,8,4,True,ok,True,
+128,64,16,4,8,8,True,ok,True,
+128,64,16,8,2,1,True,ok,True,
+128,64,16,8,2,2,True,ok,True,
+128,64,16,8,2,4,True,ok,True,
+128,64,16,8,2,8,True,ok,True,
+128,64,16,8,4,1,True,ok,True,
+128,64,16,8,4,2,True,ok,True,
+128,64,16,8,4,4,True,ok,True,
+128,64,16,8,4,8,True,ok,True,
+128,64,16,8,8,1,True,ok,True,
+128,64,16,8,8,2,True,ok,True,
+128,64,16,8,8,4,True,ok,True,
+128,64,16,8,8,8,True,ok,True,
+128,64,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,32,2,4,1,True,ok,True,
+128,64,32,2,4,2,True,ok,True,
+128,64,32,2,4,4,True,ok,True,
+128,64,32,2,4,8,True,ok,True,
+128,64,32,2,8,1,True,ok,True,
+128,64,32,2,8,2,True,ok,True,
+128,64,32,2,8,4,True,ok,True,
+128,64,32,2,8,8,True,ok,True,
+128,64,32,4,2,1,True,ok,True,
+128,64,32,4,2,2,True,ok,True,
+128,64,32,4,2,4,True,ok,True,
+128,64,32,4,2,8,True,ok,True,
+128,64,32,4,4,1,True,ok,True,
+128,64,32,4,4,2,True,ok,True,
+128,64,32,4,4,4,True,ok,True,
+128,64,32,4,4,8,True,ok,True,
+128,64,32,4,8,1,True,ok,True,
+128,64,32,4,8,2,True,ok,True,
+128,64,32,4,8,4,True,ok,True,
+128,64,32,4,8,8,True,ok,True,
+128,64,32,8,2,1,True,ok,True,
+128,64,32,8,2,2,True,ok,True,
+128,64,32,8,2,4,True,ok,True,
+128,64,32,8,2,8,True,ok,True,
+128,64,32,8,4,1,True,ok,True,
+128,64,32,8,4,2,True,ok,True,
+128,64,32,8,4,4,True,ok,True,
+128,64,32,8,4,8,True,ok,True,
+128,64,32,8,8,1,True,ok,True,
+128,64,32,8,8,2,True,ok,True,
+128,64,32,8,8,4,True,ok,True,
+128,64,32,8,8,8,True,ok,True,
+128,64,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,64,64,2,4,1,True,ok,True,
+128,64,64,2,4,2,True,ok,True,
+128,64,64,2,4,4,True,ok,True,
+128,64,64,2,4,8,True,ok,True,
+128,64,64,2,8,1,True,ok,True,
+128,64,64,2,8,2,True,ok,True,
+128,64,64,2,8,4,True,ok,True,
+128,64,64,2,8,8,True,ok,True,
+128,64,64,4,2,1,True,ok,True,
+128,64,64,4,2,2,True,ok,True,
+128,64,64,4,2,4,True,ok,True,
+128,64,64,4,2,8,True,ok,True,
+128,64,64,4,4,1,True,ok,True,
+128,64,64,4,4,2,True,ok,True,
+128,64,64,4,4,4,True,ok,True,
+128,64,64,4,4,8,True,ok,True,
+128,64,64,4,8,1,True,ok,True,
+128,64,64,4,8,2,True,ok,True,
+128,64,64,4,8,4,True,ok,True,
+128,64,64,4,8,8,True,ok,True,
+128,64,64,8,2,1,True,ok,True,
+128,64,64,8,2,2,True,ok,True,
+128,64,64,8,2,4,True,ok,True,
+128,64,64,8,2,8,True,ok,True,
+128,64,64,8,4,1,True,ok,True,
+128,64,64,8,4,2,True,ok,True,
+128,64,64,8,4,4,True,ok,True,
+128,64,64,8,4,8,True,ok,True,
+128,64,64,8,8,1,True,ok,True,
+128,64,64,8,8,2,True,ok,True,
+128,64,64,8,8,4,True,ok,True,
+128,64,64,8,8,8,True,ok,True,
+128,128,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,2,8,1,True,ok,True,
+128,128,8,2,8,2,True,ok,True,
+128,128,8,2,8,4,True,ok,True,
+128,128,8,2,8,8,True,ok,True,
+128,128,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,8,4,4,1,True,ok,True,
+128,128,8,4,4,2,True,ok,True,
+128,128,8,4,4,4,True,ok,True,
+128,128,8,4,4,8,True,ok,True,
+128,128,8,4,8,1,True,ok,True,
+128,128,8,4,8,2,True,ok,True,
+128,128,8,4,8,4,True,ok,True,
+128,128,8,4,8,8,True,ok,True,
+128,128,8,8,2,1,True,ok,True,
+128,128,8,8,2,2,True,ok,True,
+128,128,8,8,2,4,True,ok,True,
+128,128,8,8,2,8,True,ok,True,
+128,128,8,8,4,1,True,ok,True,
+128,128,8,8,4,2,True,ok,True,
+128,128,8,8,4,4,True,ok,True,
+128,128,8,8,4,8,True,ok,True,
+128,128,8,8,8,1,True,ok,True,
+128,128,8,8,8,2,True,ok,True,
+128,128,8,8,8,4,True,ok,True,
+128,128,8,8,8,8,True,ok,True,
+128,128,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,2,8,1,True,ok,True,
+128,128,16,2,8,2,True,ok,True,
+128,128,16,2,8,4,True,ok,True,
+128,128,16,2,8,8,True,ok,True,
+128,128,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,16,4,4,1,True,ok,True,
+128,128,16,4,4,2,True,ok,True,
+128,128,16,4,4,4,True,ok,True,
+128,128,16,4,4,8,True,ok,True,
+128,128,16,4,8,1,True,ok,True,
+128,128,16,4,8,2,True,ok,True,
+128,128,16,4,8,4,True,ok,True,
+128,128,16,4,8,8,True,ok,True,
+128,128,16,8,2,1,True,ok,True,
+128,128,16,8,2,2,True,ok,True,
+128,128,16,8,2,4,True,ok,True,
+128,128,16,8,2,8,True,ok,True,
+128,128,16,8,4,1,True,ok,True,
+128,128,16,8,4,2,True,ok,True,
+128,128,16,8,4,4,True,ok,True,
+128,128,16,8,4,8,True,ok,True,
+128,128,16,8,8,1,True,ok,True,
+128,128,16,8,8,2,True,ok,True,
+128,128,16,8,8,4,True,ok,True,
+128,128,16,8,8,8,True,ok,True,
+128,128,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,2,8,1,True,ok,True,
+128,128,32,2,8,2,True,ok,True,
+128,128,32,2,8,4,True,ok,True,
+128,128,32,2,8,8,True,ok,True,
+128,128,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,32,4,4,1,True,ok,True,
+128,128,32,4,4,2,True,ok,True,
+128,128,32,4,4,4,True,ok,True,
+128,128,32,4,4,8,True,ok,True,
+128,128,32,4,8,1,True,ok,True,
+128,128,32,4,8,2,True,ok,True,
+128,128,32,4,8,4,True,ok,True,
+128,128,32,4,8,8,True,ok,True,
+128,128,32,8,2,1,True,ok,True,
+128,128,32,8,2,2,True,ok,True,
+128,128,32,8,2,4,True,ok,True,
+128,128,32,8,2,8,True,ok,True,
+128,128,32,8,4,1,True,ok,True,
+128,128,32,8,4,2,True,ok,True,
+128,128,32,8,4,4,True,ok,True,
+128,128,32,8,4,8,True,ok,True,
+128,128,32,8,8,1,True,ok,True,
+128,128,32,8,8,2,True,ok,True,
+128,128,32,8,8,4,True,ok,True,
+128,128,32,8,8,8,True,ok,True,
+128,128,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,2,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,2,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,2,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,2,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,128,64,4,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,128,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,4,8,1,True,ok,True,
+128,256,8,4,8,2,True,ok,True,
+128,256,8,4,8,4,True,ok,True,
+128,256,8,4,8,8,True,ok,True,
+128,256,8,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,8,8,4,1,True,ok,True,
+128,256,8,8,4,2,True,ok,True,
+128,256,8,8,4,4,True,ok,True,
+128,256,8,8,4,8,True,ok,True,
+128,256,8,8,8,1,True,ok,True,
+128,256,8,8,8,2,True,ok,True,
+128,256,8,8,8,4,True,ok,True,
+128,256,8,8,8,8,True,ok,True,
+128,256,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,4,8,1,True,ok,True,
+128,256,16,4,8,2,True,ok,True,
+128,256,16,4,8,4,True,ok,True,
+128,256,16,4,8,8,True,ok,True,
+128,256,16,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,16,8,4,1,True,ok,True,
+128,256,16,8,4,2,True,ok,True,
+128,256,16,8,4,4,True,ok,True,
+128,256,16,8,4,8,True,ok,True,
+128,256,16,8,8,1,True,ok,True,
+128,256,16,8,8,2,True,ok,True,
+128,256,16,8,8,4,True,ok,True,
+128,256,16,8,8,8,True,ok,True,
+128,256,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,4,8,1,True,ok,True,
+128,256,32,4,8,2,True,ok,True,
+128,256,32,4,8,4,True,ok,True,
+128,256,32,4,8,8,True,ok,True,
+128,256,32,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,32,8,4,1,True,ok,True,
+128,256,32,8,4,2,True,ok,True,
+128,256,32,8,4,4,True,ok,True,
+128,256,32,8,4,8,True,ok,True,
+128,256,32,8,8,1,True,ok,True,
+128,256,32,8,8,2,True,ok,True,
+128,256,32,8,8,4,True,ok,True,
+128,256,32,8,8,8,True,ok,True,
+128,256,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+128,256,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+128,256,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,8,2,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,8,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,8,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,8,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,2,8,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,4,8,1,True,ok,True,
+256,32,8,4,8,2,True,ok,True,
+256,32,8,4,8,4,True,ok,True,
+256,32,8,4,8,8,True,ok,True,
+256,32,8,8,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,8,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,8,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,8,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,8,8,4,1,True,ok,True,
+256,32,8,8,4,2,True,ok,True,
+256,32,8,8,4,4,True,ok,True,
+256,32,8,8,4,8,True,ok,True,
+256,32,8,8,8,1,True,ok,True,
+256,32,8,8,8,2,True,ok,True,
+256,32,8,8,8,4,True,ok,True,
+256,32,8,8,8,8,True,ok,True,
+256,32,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,16,2,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,2,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,2,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,2,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,2,8,1,True,ok,True,
+256,32,16,2,8,2,True,ok,True,
+256,32,16,2,8,4,True,ok,True,
+256,32,16,2,8,8,True,ok,True,
+256,32,16,4,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,4,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,4,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,4,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,32,16,4,4,1,True,ok,True,
+256,32,16,4,4,2,True,ok,True,
+256,32,16,4,4,4,True,ok,True,
+256,32,16,4,4,8,True,ok,True,
+256,32,16,4,8,1,True,ok,True,
+256,32,16,4,8,2,True,ok,True,
+256,32,16,4,8,4,True,ok,True,
+256,32,16,4,8,8,True,ok,True,
+256,32,16,8,2,1,True,ok,True,
+256,32,16,8,2,2,True,ok,True,
+256,32,16,8,2,4,True,ok,True,
+256,32,16,8,2,8,True,ok,True,
+256,32,16,8,4,1,True,ok,True,
+256,32,16,8,4,2,True,ok,True,
+256,32,16,8,4,4,True,ok,True,
+256,32,16,8,4,8,True,ok,True,
+256,32,16,8,8,1,True,ok,True,
+256,32,16,8,8,2,True,ok,True,
+256,32,16,8,8,4,True,ok,True,
+256,32,16,8,8,8,True,ok,True,
+256,32,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,32,2,4,1,True,ok,True,
+256,32,32,2,4,2,True,ok,True,
+256,32,32,2,4,4,True,ok,True,
+256,32,32,2,4,8,True,ok,True,
+256,32,32,2,8,1,True,ok,True,
+256,32,32,2,8,2,True,ok,True,
+256,32,32,2,8,4,True,ok,True,
+256,32,32,2,8,8,True,ok,True,
+256,32,32,4,2,1,True,ok,True,
+256,32,32,4,2,2,True,ok,True,
+256,32,32,4,2,4,True,ok,True,
+256,32,32,4,2,8,True,ok,True,
+256,32,32,4,4,1,True,ok,True,
+256,32,32,4,4,2,True,ok,True,
+256,32,32,4,4,4,True,ok,True,
+256,32,32,4,4,8,True,ok,True,
+256,32,32,4,8,1,True,ok,True,
+256,32,32,4,8,2,True,ok,True,
+256,32,32,4,8,4,True,ok,True,
+256,32,32,4,8,8,True,ok,True,
+256,32,32,8,2,1,True,ok,True,
+256,32,32,8,2,2,True,ok,True,
+256,32,32,8,2,4,True,ok,True,
+256,32,32,8,2,8,True,ok,True,
+256,32,32,8,4,1,True,ok,True,
+256,32,32,8,4,2,True,ok,True,
+256,32,32,8,4,4,True,ok,True,
+256,32,32,8,4,8,True,ok,True,
+256,32,32,8,8,1,True,ok,True,
+256,32,32,8,8,2,True,ok,True,
+256,32,32,8,8,4,True,ok,True,
+256,32,32,8,8,8,True,ok,True,
+256,32,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,32,64,2,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,2,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,32,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,2,8,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,2,8,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,2,8,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,2,8,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,8,4,4,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,4,4,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,4,4,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,4,4,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,4,8,1,True,ok,True,
+256,64,8,4,8,2,True,ok,True,
+256,64,8,4,8,4,True,ok,True,
+256,64,8,4,8,8,True,ok,True,
+256,64,8,8,2,1,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,8,2,2,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,8,2,4,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,8,2,8,False,B_tile_load_overflow,False,B-tile load overflow: threads > BK*BN
+256,64,8,8,4,1,True,ok,True,
+256,64,8,8,4,2,True,ok,True,
+256,64,8,8,4,4,True,ok,True,
+256,64,8,8,4,8,True,ok,True,
+256,64,8,8,8,1,True,ok,True,
+256,64,8,8,8,2,True,ok,True,
+256,64,8,8,8,4,True,ok,True,
+256,64,8,8,8,8,True,ok,True,
+256,64,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,2,8,1,True,ok,True,
+256,64,16,2,8,2,True,ok,True,
+256,64,16,2,8,4,True,ok,True,
+256,64,16,2,8,8,True,ok,True,
+256,64,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,16,4,4,1,True,ok,True,
+256,64,16,4,4,2,True,ok,True,
+256,64,16,4,4,4,True,ok,True,
+256,64,16,4,4,8,True,ok,True,
+256,64,16,4,8,1,True,ok,True,
+256,64,16,4,8,2,True,ok,True,
+256,64,16,4,8,4,True,ok,True,
+256,64,16,4,8,8,True,ok,True,
+256,64,16,8,2,1,True,ok,True,
+256,64,16,8,2,2,True,ok,True,
+256,64,16,8,2,4,True,ok,True,
+256,64,16,8,2,8,True,ok,True,
+256,64,16,8,4,1,True,ok,True,
+256,64,16,8,4,2,True,ok,True,
+256,64,16,8,4,4,True,ok,True,
+256,64,16,8,4,8,True,ok,True,
+256,64,16,8,8,1,True,ok,True,
+256,64,16,8,8,2,True,ok,True,
+256,64,16,8,8,4,True,ok,True,
+256,64,16,8,8,8,True,ok,True,
+256,64,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,2,8,1,True,ok,True,
+256,64,32,2,8,2,True,ok,True,
+256,64,32,2,8,4,True,ok,True,
+256,64,32,2,8,8,True,ok,True,
+256,64,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,32,4,4,1,True,ok,True,
+256,64,32,4,4,2,True,ok,True,
+256,64,32,4,4,4,True,ok,True,
+256,64,32,4,4,8,True,ok,True,
+256,64,32,4,8,1,True,ok,True,
+256,64,32,4,8,2,True,ok,True,
+256,64,32,4,8,4,True,ok,True,
+256,64,32,4,8,8,True,ok,True,
+256,64,32,8,2,1,True,ok,True,
+256,64,32,8,2,2,True,ok,True,
+256,64,32,8,2,4,True,ok,True,
+256,64,32,8,2,8,True,ok,True,
+256,64,32,8,4,1,True,ok,True,
+256,64,32,8,4,2,True,ok,True,
+256,64,32,8,4,4,True,ok,True,
+256,64,32,8,4,8,True,ok,True,
+256,64,32,8,8,1,True,ok,True,
+256,64,32,8,8,2,True,ok,True,
+256,64,32,8,8,4,True,ok,True,
+256,64,32,8,8,8,True,ok,True,
+256,64,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,2,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,2,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,2,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,2,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,64,64,4,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,2,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,2,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,2,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,2,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,64,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,4,8,1,True,ok,True,
+256,128,8,4,8,2,True,ok,True,
+256,128,8,4,8,4,True,ok,True,
+256,128,8,4,8,8,True,ok,True,
+256,128,8,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,8,8,4,1,True,ok,True,
+256,128,8,8,4,2,True,ok,True,
+256,128,8,8,4,4,True,ok,True,
+256,128,8,8,4,8,True,ok,True,
+256,128,8,8,8,1,True,ok,True,
+256,128,8,8,8,2,True,ok,True,
+256,128,8,8,8,4,True,ok,True,
+256,128,8,8,8,8,True,ok,True,
+256,128,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,4,8,1,True,ok,True,
+256,128,16,4,8,2,True,ok,True,
+256,128,16,4,8,4,True,ok,True,
+256,128,16,4,8,8,True,ok,True,
+256,128,16,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,16,8,4,1,True,ok,True,
+256,128,16,8,4,2,True,ok,True,
+256,128,16,8,4,4,True,ok,True,
+256,128,16,8,4,8,True,ok,True,
+256,128,16,8,8,1,True,ok,True,
+256,128,16,8,8,2,True,ok,True,
+256,128,16,8,8,4,True,ok,True,
+256,128,16,8,8,8,True,ok,True,
+256,128,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,4,8,1,True,ok,True,
+256,128,32,4,8,2,True,ok,True,
+256,128,32,4,8,4,True,ok,True,
+256,128,32,4,8,8,True,ok,True,
+256,128,32,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,32,8,4,1,True,ok,True,
+256,128,32,8,4,2,True,ok,True,
+256,128,32,8,4,4,True,ok,True,
+256,128,32,8,4,8,True,ok,True,
+256,128,32,8,8,1,True,ok,True,
+256,128,32,8,8,2,True,ok,True,
+256,128,32,8,8,4,True,ok,True,
+256,128,32,8,8,8,True,ok,True,
+256,128,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,4,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,4,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,4,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,4,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,128,64,8,4,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,4,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,4,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,4,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,128,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,8,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,4,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,8,8,8,1,True,ok,True,
+256,256,8,8,8,2,True,ok,True,
+256,256,8,8,8,4,True,ok,True,
+256,256,8,8,8,8,True,ok,True,
+256,256,16,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,4,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,16,8,8,1,True,ok,True,
+256,256,16,8,8,2,True,ok,True,
+256,256,16,8,8,4,True,ok,True,
+256,256,16,8,8,8,True,ok,True,
+256,256,32,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,4,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,32,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,32,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,32,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,32,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,64,2,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,2,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,8,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,8,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,8,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,4,8,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,2,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,2,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,2,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,2,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,4,1,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,4,2,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,4,4,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,4,8,False,threads_per_block_gt_1024,False,threads per block exceeds 1024
+256,256,64,8,8,1,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,64,8,8,2,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,64,8,8,4,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB
+256,256,64,8,8,8,False,shared_mem_gt_48KiB,False,static shared memory exceeds 48 KiB

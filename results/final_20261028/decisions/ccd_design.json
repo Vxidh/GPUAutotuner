@@ -1,0 +1,866 @@
+[
+ {
+  "point_id": "C01",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": -1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 8,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C02",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": -1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 8,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C03",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": -1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 8,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C04",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": -1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 8,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C05",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": 1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 32,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C06",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": 1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 32,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C07",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": 1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 32,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C08",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": -1,
+   "BK": 1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 32,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C09",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": -1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 8,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C10",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": -1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 8,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C11",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": -1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 8,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C12",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": -1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 8,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C13",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": 1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 32,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C14",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": 1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 32,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C15",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": 1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 32,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C16",
+  "kind": "factorial",
+  "nominal": {
+   "BM": -1,
+   "BN": 1,
+   "BK": 1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 64,
+  "BN": 128,
+  "BK": 32,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C17",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": -1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 8,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C18",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": -1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 8,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C19",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": -1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 8,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C20",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": -1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 8,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C21",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": 1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 32,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C22",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": 1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 32,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C23",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": 1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 32,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C24",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": -1,
+   "BK": 1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 64,
+  "BK": 32,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C25",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": -1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 8,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C26",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": -1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 8,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C27",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": -1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 8,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C28",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": -1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 8,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C29",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": 1,
+   "TM": -1,
+   "TN": -1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 32,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C30",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": 1,
+   "TM": -1,
+   "TN": 1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 32,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C31",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": 1,
+   "TM": 1,
+   "TN": -1,
+   "UNROLL": -1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 32,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C32",
+  "kind": "factorial",
+  "nominal": {
+   "BM": 1,
+   "BN": 1,
+   "BK": 1,
+   "TM": 1,
+   "TN": 1,
+   "UNROLL": 1
+  },
+  "BM": 128,
+  "BN": 128,
+  "BK": 32,
+  "TM": 8,
+  "TN": 8,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C33",
+  "kind": "axial",
+  "nominal": {
+   "BM": -2.378414230005442,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 32,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C34",
+  "kind": "axial",
+  "nominal": {
+   "BM": 2.378414230005442,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 256,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C35",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": -2.378414230005442,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 32,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C36",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 2.378414230005442,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 256,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C37",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": -2.378414230005442,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 8,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C38",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 2.378414230005442,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 64,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C39",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": -2.378414230005442,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 2,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C40",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 2.378414230005442,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 8,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C41",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": -2.378414230005442,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 2,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C42",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 2.378414230005442,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 8,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C43",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": -2.378414230005442
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 1
+ },
+ {
+  "point_id": "C44",
+  "kind": "axial",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 2.378414230005442
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 8
+ },
+ {
+  "point_id": "C45",
+  "kind": "center",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C46",
+  "kind": "center",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C47",
+  "kind": "center",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ },
+ {
+  "point_id": "C48",
+  "kind": "center",
+  "nominal": {
+   "BM": 0.0,
+   "BN": 0.0,
+   "BK": 0.0,
+   "TM": 0.0,
+   "TN": 0.0,
+   "UNROLL": 0.0
+  },
+  "BM": 64,
+  "BN": 64,
+  "BK": 16,
+  "TM": 4,
+  "TN": 4,
+  "UNROLL": 2
+ }
+]

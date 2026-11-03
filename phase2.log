@@ -1,0 +1,18 @@
+=== MARK exhaustive_done 16:47:07
+=== MARK exhaustive_analysed 16:47:09
+[validation 4096^3] 25/75 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[validation 4096^3] 50/75 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[validation 4096^3] 75/75 measured | retried 0 | still contended 0 | last clock 1830 MHz
+=== MARK validation_done 16:47:51
+[exhaustive_recheck 4096^3] 25/60 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[exhaustive_recheck 4096^3] 50/60 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[exhaustive_recheck 4096^3] 60/60 measured | retried 0 | still contended 0 | last clock 1830 MHz
+=== MARK recheck_done 16:48:24
+[compare_default 4096^3] 3/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[compare_default 4096^3] 6/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[compare_default 4096^3] 9/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[compare_pedantic 4096^3] 3/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[compare_pedantic 4096^3] 6/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+[compare_pedantic 4096^3] 9/9 measured | retried 0 | still contended 0 | last clock 1830 MHz
+=== MARK compare_done 16:49:23
+=== MARK ALL_DONE 16:49:26

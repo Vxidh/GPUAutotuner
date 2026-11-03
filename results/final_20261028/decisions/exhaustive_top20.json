@@ -1,0 +1,204 @@
+{
+  "top": [
+    {
+      "cfg_key": "BM64_BN128_BK64_TM8_TN8_UNROLL8",
+      "BM": 64,
+      "BN": 128,
+      "BK": 64,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 34.43314984346627
+    },
+    {
+      "cfg_key": "BM128_BN128_BK32_TM8_TN8_UNROLL8",
+      "BM": 128,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 34.3429789942508
+    },
+    {
+      "cfg_key": "BM128_BN256_BK32_TM8_TN8_UNROLL8",
+      "BM": 128,
+      "BN": 256,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 33.22902123346756
+    },
+    {
+      "cfg_key": "BM64_BN128_BK32_TM8_TN8_UNROLL8",
+      "BM": 64,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 33.2025626543699
+    },
+    {
+      "cfg_key": "BM256_BN128_BK32_TM8_TN8_UNROLL8",
+      "BM": 256,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 33.13544976990167
+    },
+    {
+      "cfg_key": "BM128_BN128_BK32_TM8_TN8_UNROLL4",
+      "BM": 128,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "tflops": 33.0815977570583
+    },
+    {
+      "cfg_key": "BM64_BN128_BK32_TM8_TN8_UNROLL4",
+      "BM": 64,
+      "BN": 128,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "tflops": 33.06567991870169
+    },
+    {
+      "cfg_key": "BM64_BN64_BK32_TM8_TN4_UNROLL8",
+      "BM": 64,
+      "BN": 64,
+      "BK": 32,
+      "TM": 8,
+      "TN": 4,
+      "UNROLL": 8,
+      "tflops": 33.020937478857206
+    },
+    {
+      "cfg_key": "BM64_BN256_BK32_TM8_TN8_UNROLL8",
+      "BM": 64,
+      "BN": 256,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 32.943686929042066
+    },
+    {
+      "cfg_key": "BM128_BN128_BK16_TM8_TN8_UNROLL8",
+      "BM": 128,
+      "BN": 128,
+      "BK": 16,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 32.907466075170575
+    },
+    {
+      "cfg_key": "BM64_BN128_BK16_TM8_TN8_UNROLL8",
+      "BM": 64,
+      "BN": 128,
+      "BK": 16,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 32.421576523429394
+    },
+    {
+      "cfg_key": "BM64_BN128_BK64_TM8_TN8_UNROLL4",
+      "BM": 64,
+      "BN": 128,
+      "BK": 64,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "tflops": 32.4196187061492
+    },
+    {
+      "cfg_key": "BM64_BN128_BK16_TM8_TN8_UNROLL4",
+      "BM": 64,
+      "BN": 128,
+      "BK": 16,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "tflops": 32.24788863694382
+    },
+    {
+      "cfg_key": "BM64_BN128_BK64_TM8_TN4_UNROLL8",
+      "BM": 64,
+      "BN": 128,
+      "BK": 64,
+      "TM": 8,
+      "TN": 4,
+      "UNROLL": 8,
+      "tflops": 32.246314890102674
+    },
+    {
+      "cfg_key": "BM64_BN256_BK32_TM8_TN8_UNROLL4",
+      "BM": 64,
+      "BN": 256,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 4,
+      "tflops": 32.21849705380417
+    },
+    {
+      "cfg_key": "BM128_BN64_BK64_TM8_TN4_UNROLL8",
+      "BM": 128,
+      "BN": 64,
+      "BK": 64,
+      "TM": 8,
+      "TN": 4,
+      "UNROLL": 8,
+      "tflops": 32.07329716005406
+    },
+    {
+      "cfg_key": "BM64_BN256_BK16_TM8_TN8_UNROLL8",
+      "BM": 64,
+      "BN": 256,
+      "BK": 16,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 31.803382483940837
+    },
+    {
+      "cfg_key": "BM256_BN64_BK32_TM8_TN8_UNROLL8",
+      "BM": 256,
+      "BN": 64,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 31.749779494439125
+    },
+    {
+      "cfg_key": "BM128_BN256_BK32_TM8_TN4_UNROLL8",
+      "BM": 128,
+      "BN": 256,
+      "BK": 32,
+      "TM": 8,
+      "TN": 4,
+      "UNROLL": 8,
+      "tflops": 31.66819512770601
+    },
+    {
+      "cfg_key": "BM128_BN64_BK32_TM8_TN8_UNROLL8",
+      "BM": 128,
+      "BN": 64,
+      "BK": 32,
+      "TM": 8,
+      "TN": 8,
+      "UNROLL": 8,
+      "tflops": 31.667027671073292
+    }
+  ]
+}

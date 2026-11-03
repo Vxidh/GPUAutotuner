@@ -1,0 +1,29 @@
+{
+  "selected_candidate": "V03",
+  "rsm_selected": {
+    "BM": 128,
+    "BN": 128,
+    "BK": 32,
+    "TM": 8,
+    "TN": 8,
+    "UNROLL": 8
+  },
+  "measured_tflops": 34.31828340371824,
+  "predicted_tflops": 34.07367355728227,
+  "prediction_error_pct_selected": -0.7127683035844045,
+  "selected_source": "augmented_top5+augmented_sqp_neighbourhood",
+  "mean_abs_prediction_error_pct_candidates": 9.038656140366713,
+  "mean_abs_prediction_error_pct_candidates_quadratic": 8.461437962241344,
+  "spearman_rank_measured_vs_augmented": 0.25,
+  "spearman_rank_measured_vs_quadratic": 0.3714285714285714,
+  "selected_was_augmented_rank_1": false,
+  "quadratic_top1_measured_tflops": 31.166019505519763,
+  "contamination": {
+    "measurements": 75,
+    "retried": 0,
+    "still_contended": 0,
+    "sm_clocks_seen_mhz": [
+      1830
+    ]
+  }
+}

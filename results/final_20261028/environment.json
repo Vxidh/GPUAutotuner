@@ -1,0 +1,23 @@
+{
+  "run_id": "final_20261028",
+  "contract_sha256_12": "857dc5fbcf29",
+  "source_hash": "35f56fe46097",
+  "gpu": "NVIDIA H200",
+  "driver": "595.71.05",
+  "cuda_driver_version": 13020,
+  "nvcc": [
+    "Cuda compilation tools, release 13.0, V13.0.88",
+    "Build cuda_13.0.r13.0/compiler.36424714_0"
+  ],
+  "nvcc_flags": [
+    "-O3",
+    "-std=c++17",
+    "-arch=sm_90",
+    "-lcublas"
+  ],
+  "kernel": "6.8.0-138-generic",
+  "host": "equal-ai-vm02",
+  "python": "3.12.3",
+  "numpy": "2.5.4",
+  "started": "2026-10-28 16:10:11 IST"
+}

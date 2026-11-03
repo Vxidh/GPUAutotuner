@@ -1,0 +1,178 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="620pt" height="260pt" viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 260 
+L 620 260 
+L 620 0 
+L 0 0 
+L 0 260 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 186 223.6 
+L 570.4 223.6 
+L 570.4 10.4 
+L 186 10.4 
+L 186 223.6 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 186 223.6 
+L 186 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="186" y="236.776709" transform="rotate(-0 186 236.776709)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 257.185185 223.6 
+L 257.185185 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="257.185185" y="236.776709" transform="rotate(-0 257.185185 236.776709)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 328.37037 223.6 
+L 328.37037 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="328.37037" y="236.776709" transform="rotate(-0 328.37037 236.776709)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 399.555556 223.6 
+L 399.555556 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="399.555556" y="236.776709" transform="rotate(-0 399.555556 236.776709)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 470.740741 223.6 
+L 470.740741 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="470.740741" y="236.776709" transform="rotate(-0 470.740741 236.776709)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 541.925926 223.6 
+L 541.925926 10.4 
+" clip-path="url(#p9794e6e92e)" style="fill: none; stroke: #d9d3c4; stroke-width: 0.42"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="541.925926" y="236.776709" transform="rotate(-0 541.925926 236.776709)">50</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10.35px; font-family: 'Geist Mono', monospace; text-anchor: middle; fill: #8a857a" x="378.2" y="251.044367" transform="rotate(-0 378.2 251.044367)">TFLOPS · 4096³ SGEMM · median of 900 interleaved launches</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="39.04839" transform="rotate(-0 180.25 39.04839)">cuBLAS SGEMM, FP32</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="93.492082" transform="rotate(-0 180.25 93.492082)">Exhaustive best</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="147.961356" transform="rotate(-0 180.25 147.961356)">DOE–RSM selection</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 9.775px; font-family: 'Geist Mono', monospace; text-anchor: end; fill: #141414" x="180.25" y="202.404665" transform="rotate(-0 180.25 202.404665)">Untuned default</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 186 50.579162 
+L 525.497693 50.579162 
+L 525.497693 20.090909 
+L 186 20.090909 
+z
+" clip-path="url(#p9794e6e92e)" style="fill: #141414"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 186 105.022472 
+L 430.992221 105.022472 
+L 430.992221 74.534219 
+L 186 74.534219 
+z
+" clip-path="url(#p9794e6e92e)" style="fill: #8a857a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 186 159.465781 
+L 430.500458 159.465781 
+L 430.500458 128.977528 
+L 186 128.977528 
+z
+" clip-path="url(#p9794e6e92e)" style="fill: #e4472b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 186 213.909091 
+L 279.647364 213.909091 
+L 279.647364 183.420838 
+L 186 183.420838 
+z
+" clip-path="url(#p9794e6e92e)" style="fill: #bdb6a6"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 186 223.6 
+L 570.4 223.6 
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.35px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="529.768804" y="38.02361" transform="rotate(-0 529.768804 38.02361)">47.7</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.35px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="435.263332" y="92.466919" transform="rotate(-0 435.263332 92.466919)">34.4</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.35px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="434.771569" y="146.910229" transform="rotate(-0 434.771569 146.910229)">34.3</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.35px; font-family: 'Geist Mono', monospace; text-anchor: start; fill: #141414" x="283.918476" y="201.353538" transform="rotate(-0 283.918476 201.353538)">13.2</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9794e6e92e">
+   <rect x="186" y="10.4" width="384.4" height="213.2"/>
+  </clipPath>
+ </defs>
+</svg>

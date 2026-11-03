@@ -1,0 +1,7302 @@
+{
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM128_BN64_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "2048x2048x2048|BM64_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM128_BN128_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "1024x1024x1024|BM64_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN256_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM2_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK8_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK16_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK64_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK16_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK16_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK64_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK16_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM4_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK16_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK32_TM2_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN256_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK8_TM8_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK8_TM8_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK8_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK8_TM8_TN2_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK8_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK64_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM8_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK16_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK8_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK8_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM2_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK32_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN128_BK8_TM8_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK16_TM8_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK64_TM8_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM4_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK8_TM2_TN8_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN64_BK16_TM4_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK32_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN256_BK32_TM2_TN8_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK8_TM4_TN4_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK32_TM4_TN8_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK16_TM4_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK32_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN32_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN32_BK64_TM2_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN32_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK16_TM8_TN4_UNROLL1": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM128_BN128_BK32_TM2_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK16_TM4_TN2_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN64_BK64_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM64_BN128_BK8_TM8_TN2_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN128_BK32_TM4_TN4_UNROLL8": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN32_BK32_TM8_TN2_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN256_BK8_TM4_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM256_BN64_BK32_TM8_TN8_UNROLL2": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ },
+ "4096x4096x4096|BM32_BN64_BK16_TM2_TN4_UNROLL4": {
+  "rel_fro_err": 0.0,
+  "max_abs_err": 0.0,
+  "ok": true
+ }
+}
